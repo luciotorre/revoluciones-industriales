@@ -1,0 +1,247 @@
+# EESchema Netlist Version 1.1 created  9/4/2009-09:52:06
+(
+ ( /49D982B0 $noname  U1 4-OPTOCOUPLER {Lib=4-OPTOCOUPLER}
+  (    1 N-000007 )
+  (    2 N-000013 )
+  (    3 N-000011 )
+  (    4 N-000002 )
+  (    5 N-000010 )
+  (    6 N-000009 )
+  (    7 N-000011 )
+  (    8 N-000004 )
+  (    9 N-000003 )
+  (   10 VCC )
+  (   11 N-000008 )
+  (   12 GND )
+  (   13 N-000001 )
+  (   14 VCC )
+  (   15 N-000006 )
+  (   16 GND )
+ )
+ ( /49D95490 $noname  P3 CONN_2 {Lib=CONN_2}
+  (    1 N-000019 )
+  (    2 N-000014 )
+ )
+ ( /49D9548B $noname  P2 CONN_2 {Lib=CONN_2}
+  (    1 GND )
+  (    2 VCC )
+ )
+ ( /49D95423 $noname  Q4 NPN {Lib=NPN}
+  (    1 GND )
+  (    2 N-000017 )
+  (    3 N-000019 )
+ )
+ ( /49D9541B $noname  Q2 NPN {Lib=NPN}
+  (    1 GND )
+  (    2 N-000015 )
+  (    3 N-000014 )
+ )
+ ( /49D95410 $noname  Q3 PNP {Lib=PNP}
+  (    1 VCC )
+  (    2 N-000018 )
+  (    3 N-000019 )
+ )
+ ( /49D9540B $noname  Q1 PNP {Lib=PNP}
+  (    1 VCC )
+  (    2 N-000016 )
+  (    3 N-000014 )
+ )
+ ( /49D95360 $noname  K1 CONN_3 {Lib=CONN_3}
+  (    1 N-000011 )
+  (    2 N-000009 )
+  (    3 N-000013 )
+ )
+ ( /49D95316 $noname  R9 10k {Lib=R}
+  (    1 VCC )
+  (    2 N-000016 )
+ )
+ ( /49D95314 $noname  R11 10k {Lib=R}
+  (    1 VCC )
+  (    2 N-000018 )
+ )
+ ( /49D95312 $noname  R10 10k {Lib=R}
+  (    1 N-000015 )
+  (    2 GND )
+ )
+ ( /49D95311 $noname  R12 10k {Lib=R}
+  (    1 N-000017 )
+  (    2 GND )
+ )
+ ( /49D9530D $noname  R8 1k {Lib=R}
+  (    1 N-000001 )
+  (    2 N-000017 )
+ )
+ ( /49D9530C $noname  R7 1k {Lib=R}
+  (    1 N-000006 )
+  (    2 N-000018 )
+ )
+ ( /49D9530A $noname  R5 1k {Lib=R}
+  (    1 N-000016 )
+  (    2 N-000008 )
+ )
+ ( /49D95309 $noname  R6 1k {Lib=R}
+  (    1 N-000015 )
+  (    2 N-000003 )
+ )
+ ( /49D95306 $noname  R1 470 {Lib=R}
+  (    1 N-000010 )
+  (    2 N-000013 )
+ )
+ ( /49D95305 $noname  R2 470 {Lib=R}
+  (    1 N-000004 )
+  (    2 N-000009 )
+ )
+ ( /49D95302 $noname  R4 470 {Lib=R}
+  (    1 N-000013 )
+  (    2 N-000002 )
+ )
+ ( /49D952FC $noname  R3 470 {Lib=R}
+  (    1 N-000009 )
+  (    2 N-000007 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R9
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 ""
+ U1 13
+ R8 1
+Net 2 ""
+ U1 4
+ R4 2
+Net 3 ""
+ U1 9
+ R6 2
+Net 4 ""
+ U1 8
+ R2 1
+Net 5 "GND"
+ U1 16
+ U1 12
+ P2 1
+ Q4 1
+ Q2 1
+ R10 2
+ R12 2
+Net 6 ""
+ U1 15
+ R7 1
+Net 7 ""
+ U1 1
+ R3 2
+Net 8 ""
+ U1 11
+ R5 2
+Net 9 ""
+ U1 6
+ K1 2
+ R2 2
+ R3 1
+Net 10 ""
+ U1 5
+ R1 1
+Net 11 ""
+ U1 3
+ U1 7
+ K1 1
+Net 12 "VCC"
+ U1 14
+ U1 10
+ P2 2
+ Q3 1
+ Q1 1
+ R9 1
+ R11 1
+Net 13 ""
+ U1 2
+ K1 3
+ R1 2
+ R4 1
+Net 14 ""
+ P3 2
+ Q2 3
+ Q1 3
+Net 15 ""
+ Q2 2
+ R10 1
+ R6 1
+Net 16 ""
+ Q1 2
+ R9 2
+ R5 1
+Net 17 ""
+ Q4 2
+ R12 1
+ R8 2
+Net 18 ""
+ Q3 2
+ R11 2
+ R7 2
+Net 19 ""
+ P3 1
+ Q4 3
+ Q3 3
+}
+#End

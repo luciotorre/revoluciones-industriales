@@ -1,0 +1,4 @@
+schematics h-bridge.sch h-bridge-board.sch
+output-name h-bridge
+elements-dir footprints
+

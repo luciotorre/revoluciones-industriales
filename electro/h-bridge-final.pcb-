@@ -1,0 +1,4440 @@
+# release: pcb-gtk 20080202
+# date:    Tue Apr 14 03:44:25 2009
+# user:    lucio (lucio,,,)
+# host:    prometeo
+
+# To read pcb files, the pcb version (or the cvs source date) must be >= the file version
+FileVersion[20070407]
+
+PCB["" 580000 390000]
+
+Grid[2500.000000 0 0 0]
+Cursor[0 0 6.000000]
+PolyArea[200000000.000000]
+Thermal[0.500000]
+DRC[1000 1000 1000 1000 1500 1000]
+Flags("rubberband,nameonpcb,autodrc")
+Groups("1,2,3,s:4,5,6,c:s:c")
+Styles["Signal,1000,4000,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,800,3600,2000,1000"]
+
+Symbol(' ' 18)
+(
+)
+Symbol('!' 12)
+(
+	SymbolLine(0 45 0 50 8)
+	SymbolLine(0 10 0 35 8)
+)
+Symbol('"' 12)
+(
+	SymbolLine(0 10 0 20 8)
+	SymbolLine(10 10 10 20 8)
+)
+Symbol('#' 12)
+(
+	SymbolLine(0 35 20 35 8)
+	SymbolLine(0 25 20 25 8)
+	SymbolLine(15 20 15 40 8)
+	SymbolLine(5 20 5 40 8)
+)
+Symbol('$' 12)
+(
+	SymbolLine(15 15 20 20 8)
+	SymbolLine(5 15 15 15 8)
+	SymbolLine(0 20 5 15 8)
+	SymbolLine(0 20 0 25 8)
+	SymbolLine(0 25 5 30 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(20 35 20 40 8)
+	SymbolLine(15 45 20 40 8)
+	SymbolLine(5 45 15 45 8)
+	SymbolLine(0 40 5 45 8)
+	SymbolLine(10 10 10 50 8)
+)
+Symbol('%' 12)
+(
+	SymbolLine(0 15 0 20 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 10 10 8)
+	SymbolLine(10 10 15 15 8)
+	SymbolLine(15 15 15 20 8)
+	SymbolLine(10 25 15 20 8)
+	SymbolLine(5 25 10 25 8)
+	SymbolLine(0 20 5 25 8)
+	SymbolLine(0 50 40 10 8)
+	SymbolLine(35 50 40 45 8)
+	SymbolLine(40 40 40 45 8)
+	SymbolLine(35 35 40 40 8)
+	SymbolLine(30 35 35 35 8)
+	SymbolLine(25 40 30 35 8)
+	SymbolLine(25 40 25 45 8)
+	SymbolLine(25 45 30 50 8)
+	SymbolLine(30 50 35 50 8)
+)
+Symbol('&' 12)
+(
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(0 15 0 25 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(0 35 15 20 8)
+	SymbolLine(5 50 10 50 8)
+	SymbolLine(10 50 20 40 8)
+	SymbolLine(0 25 25 50 8)
+	SymbolLine(5 10 10 10 8)
+	SymbolLine(10 10 15 15 8)
+	SymbolLine(15 15 15 20 8)
+	SymbolLine(0 35 0 45 8)
+)
+Symbol(''' 12)
+(
+	SymbolLine(0 20 10 10 8)
+)
+Symbol('(' 12)
+(
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(0 15 0 45 8)
+)
+Symbol(')' 12)
+(
+	SymbolLine(0 10 5 15 8)
+	SymbolLine(5 15 5 45 8)
+	SymbolLine(0 50 5 45 8)
+)
+Symbol('*' 12)
+(
+	SymbolLine(0 20 20 40 8)
+	SymbolLine(0 40 20 20 8)
+	SymbolLine(0 30 20 30 8)
+	SymbolLine(10 20 10 40 8)
+)
+Symbol('+' 12)
+(
+	SymbolLine(0 30 20 30 8)
+	SymbolLine(10 20 10 40 8)
+)
+Symbol(',' 12)
+(
+	SymbolLine(0 60 10 50 8)
+)
+Symbol('-' 12)
+(
+	SymbolLine(0 30 20 30 8)
+)
+Symbol('.' 12)
+(
+	SymbolLine(0 50 5 50 8)
+)
+Symbol('/' 12)
+(
+	SymbolLine(0 45 30 15 8)
+)
+Symbol('0' 12)
+(
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(0 15 0 45 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 15 10 8)
+	SymbolLine(15 10 20 15 8)
+	SymbolLine(20 15 20 45 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(0 40 20 20 8)
+)
+Symbol('1' 12)
+(
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(10 10 10 50 8)
+	SymbolLine(0 20 10 10 8)
+)
+Symbol('2' 12)
+(
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 20 10 8)
+	SymbolLine(20 10 25 15 8)
+	SymbolLine(25 15 25 25 8)
+	SymbolLine(0 50 25 25 8)
+	SymbolLine(0 50 25 50 8)
+)
+Symbol('3' 12)
+(
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 15 10 8)
+	SymbolLine(15 10 20 15 8)
+	SymbolLine(20 15 20 45 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 30 20 30 8)
+)
+Symbol('4' 12)
+(
+	SymbolLine(0 30 20 10 8)
+	SymbolLine(0 30 25 30 8)
+	SymbolLine(20 10 20 50 8)
+)
+Symbol('5' 12)
+(
+	SymbolLine(0 10 20 10 8)
+	SymbolLine(0 10 0 30 8)
+	SymbolLine(0 30 5 25 8)
+	SymbolLine(5 25 15 25 8)
+	SymbolLine(15 25 20 30 8)
+	SymbolLine(20 30 20 45 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(0 45 5 50 8)
+)
+Symbol('6' 12)
+(
+	SymbolLine(15 10 20 15 8)
+	SymbolLine(5 10 15 10 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(0 15 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(0 30 15 30 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(20 35 20 45 8)
+)
+Symbol('7' 12)
+(
+	SymbolLine(0 50 25 25 8)
+	SymbolLine(25 10 25 25 8)
+	SymbolLine(0 10 25 10 8)
+)
+Symbol('8' 12)
+(
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(0 35 0 45 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(20 35 20 45 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(0 25 5 30 8)
+	SymbolLine(0 15 0 25 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 15 10 8)
+	SymbolLine(15 10 20 15 8)
+	SymbolLine(20 15 20 25 8)
+	SymbolLine(15 30 20 25 8)
+)
+Symbol('9' 12)
+(
+	SymbolLine(0 50 20 30 8)
+	SymbolLine(20 15 20 30 8)
+	SymbolLine(15 10 20 15 8)
+	SymbolLine(5 10 15 10 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(0 15 0 25 8)
+	SymbolLine(0 25 5 30 8)
+	SymbolLine(5 30 20 30 8)
+)
+Symbol(':' 12)
+(
+	SymbolLine(0 25 5 25 8)
+	SymbolLine(0 35 5 35 8)
+)
+Symbol(';' 12)
+(
+	SymbolLine(0 50 10 40 8)
+	SymbolLine(10 25 10 30 8)
+)
+Symbol('<' 12)
+(
+	SymbolLine(0 30 10 20 8)
+	SymbolLine(0 30 10 40 8)
+)
+Symbol('=' 12)
+(
+	SymbolLine(0 25 20 25 8)
+	SymbolLine(0 35 20 35 8)
+)
+Symbol('>' 12)
+(
+	SymbolLine(0 20 10 30 8)
+	SymbolLine(0 40 10 30 8)
+)
+Symbol('?' 12)
+(
+	SymbolLine(10 30 10 35 8)
+	SymbolLine(10 45 10 50 8)
+	SymbolLine(0 15 0 20 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 15 10 8)
+	SymbolLine(15 10 20 15 8)
+	SymbolLine(20 15 20 20 8)
+	SymbolLine(10 30 20 20 8)
+)
+Symbol('@' 12)
+(
+	SymbolLine(0 10 0 40 8)
+	SymbolLine(0 40 10 50 8)
+	SymbolLine(10 50 40 50 8)
+	SymbolLine(50 35 50 10 8)
+	SymbolLine(50 10 40 0 8)
+	SymbolLine(40 0 10 0 8)
+	SymbolLine(10 0 0 10 8)
+	SymbolLine(15 20 15 30 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(20 35 30 35 8)
+	SymbolLine(30 35 35 30 8)
+	SymbolLine(35 30 40 35 8)
+	SymbolLine(35 30 35 15 8)
+	SymbolLine(35 20 30 15 8)
+	SymbolLine(20 15 30 15 8)
+	SymbolLine(20 15 15 20 8)
+	SymbolLine(40 35 50 35 8)
+)
+Symbol('A' 12)
+(
+	SymbolLine(0 15 0 50 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 20 10 8)
+	SymbolLine(20 10 25 15 8)
+	SymbolLine(25 15 25 50 8)
+	SymbolLine(0 30 25 30 8)
+)
+Symbol('B' 12)
+(
+	SymbolLine(0 50 20 50 8)
+	SymbolLine(20 50 25 45 8)
+	SymbolLine(25 35 25 45 8)
+	SymbolLine(20 30 25 35 8)
+	SymbolLine(5 30 20 30 8)
+	SymbolLine(5 10 5 50 8)
+	SymbolLine(0 10 20 10 8)
+	SymbolLine(20 10 25 15 8)
+	SymbolLine(25 15 25 25 8)
+	SymbolLine(20 30 25 25 8)
+)
+Symbol('C' 12)
+(
+	SymbolLine(5 50 20 50 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(0 15 0 45 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 20 10 8)
+)
+Symbol('D' 12)
+(
+	SymbolLine(5 10 5 50 8)
+	SymbolLine(20 10 25 15 8)
+	SymbolLine(25 15 25 45 8)
+	SymbolLine(20 50 25 45 8)
+	SymbolLine(0 50 20 50 8)
+	SymbolLine(0 10 20 10 8)
+)
+Symbol('E' 12)
+(
+	SymbolLine(0 30 15 30 8)
+	SymbolLine(0 50 20 50 8)
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 10 20 10 8)
+)
+Symbol('F' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 10 20 10 8)
+	SymbolLine(0 30 15 30 8)
+)
+Symbol('G' 12)
+(
+	SymbolLine(20 10 25 15 8)
+	SymbolLine(5 10 20 10 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(0 15 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 50 20 50 8)
+	SymbolLine(20 50 25 45 8)
+	SymbolLine(25 35 25 45 8)
+	SymbolLine(20 30 25 35 8)
+	SymbolLine(10 30 20 30 8)
+)
+Symbol('H' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(25 10 25 50 8)
+	SymbolLine(0 30 25 30 8)
+)
+Symbol('I' 12)
+(
+	SymbolLine(0 10 10 10 8)
+	SymbolLine(5 10 5 50 8)
+	SymbolLine(0 50 10 50 8)
+)
+Symbol('J' 12)
+(
+	SymbolLine(0 10 15 10 8)
+	SymbolLine(15 10 15 45 8)
+	SymbolLine(10 50 15 45 8)
+	SymbolLine(5 50 10 50 8)
+	SymbolLine(0 45 5 50 8)
+)
+Symbol('K' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 30 20 10 8)
+	SymbolLine(0 30 20 50 8)
+)
+Symbol('L' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 50 20 50 8)
+)
+Symbol('M' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 10 15 25 8)
+	SymbolLine(15 25 30 10 8)
+	SymbolLine(30 10 30 50 8)
+)
+Symbol('N' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 10 0 15 8)
+	SymbolLine(0 15 25 40 8)
+	SymbolLine(25 10 25 50 8)
+)
+Symbol('O' 12)
+(
+	SymbolLine(0 15 0 45 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 15 10 8)
+	SymbolLine(15 10 20 15 8)
+	SymbolLine(20 15 20 45 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(0 45 5 50 8)
+)
+Symbol('P' 12)
+(
+	SymbolLine(5 10 5 50 8)
+	SymbolLine(0 10 20 10 8)
+	SymbolLine(20 10 25 15 8)
+	SymbolLine(25 15 25 25 8)
+	SymbolLine(20 30 25 25 8)
+	SymbolLine(5 30 20 30 8)
+)
+Symbol('Q' 12)
+(
+	SymbolLine(0 15 0 45 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 15 10 8)
+	SymbolLine(15 10 20 15 8)
+	SymbolLine(20 15 20 45 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(10 40 20 50 8)
+)
+Symbol('R' 12)
+(
+	SymbolLine(0 10 20 10 8)
+	SymbolLine(20 10 25 15 8)
+	SymbolLine(25 15 25 25 8)
+	SymbolLine(20 30 25 25 8)
+	SymbolLine(5 30 20 30 8)
+	SymbolLine(5 10 5 50 8)
+	SymbolLine(5 30 25 50 8)
+)
+Symbol('S' 12)
+(
+	SymbolLine(20 10 25 15 8)
+	SymbolLine(5 10 20 10 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(0 15 0 25 8)
+	SymbolLine(0 25 5 30 8)
+	SymbolLine(5 30 20 30 8)
+	SymbolLine(20 30 25 35 8)
+	SymbolLine(25 35 25 45 8)
+	SymbolLine(20 50 25 45 8)
+	SymbolLine(5 50 20 50 8)
+	SymbolLine(0 45 5 50 8)
+)
+Symbol('T' 12)
+(
+	SymbolLine(0 10 20 10 8)
+	SymbolLine(10 10 10 50 8)
+)
+Symbol('U' 12)
+(
+	SymbolLine(0 10 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(20 10 20 45 8)
+)
+Symbol('V' 12)
+(
+	SymbolLine(0 10 0 40 8)
+	SymbolLine(0 40 10 50 8)
+	SymbolLine(10 50 20 40 8)
+	SymbolLine(20 10 20 40 8)
+)
+Symbol('W' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 50 15 35 8)
+	SymbolLine(15 35 30 50 8)
+	SymbolLine(30 10 30 50 8)
+)
+Symbol('X' 12)
+(
+	SymbolLine(0 10 0 15 8)
+	SymbolLine(0 15 25 40 8)
+	SymbolLine(25 40 25 50 8)
+	SymbolLine(0 40 0 50 8)
+	SymbolLine(0 40 25 15 8)
+	SymbolLine(25 10 25 15 8)
+)
+Symbol('Y' 12)
+(
+	SymbolLine(0 10 0 15 8)
+	SymbolLine(0 15 10 25 8)
+	SymbolLine(10 25 20 15 8)
+	SymbolLine(20 10 20 15 8)
+	SymbolLine(10 25 10 50 8)
+)
+Symbol('Z' 12)
+(
+	SymbolLine(0 10 25 10 8)
+	SymbolLine(25 10 25 15 8)
+	SymbolLine(0 40 25 15 8)
+	SymbolLine(0 40 0 50 8)
+	SymbolLine(0 50 25 50 8)
+)
+Symbol('[' 12)
+(
+	SymbolLine(0 10 5 10 8)
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 50 5 50 8)
+)
+Symbol('\' 12)
+(
+	SymbolLine(0 15 30 45 8)
+)
+Symbol(']' 12)
+(
+	SymbolLine(0 10 5 10 8)
+	SymbolLine(5 10 5 50 8)
+	SymbolLine(0 50 5 50 8)
+)
+Symbol('^' 12)
+(
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 10 15 8)
+)
+Symbol('_' 12)
+(
+	SymbolLine(0 50 20 50 8)
+)
+Symbol('a' 12)
+(
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(0 35 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(20 30 20 45 8)
+	SymbolLine(20 45 25 50 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(15 50 20 45 8)
+)
+Symbol('b' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(20 35 20 45 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(0 35 5 30 8)
+)
+Symbol('c' 12)
+(
+	SymbolLine(5 30 20 30 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(0 35 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 50 20 50 8)
+)
+Symbol('d' 12)
+(
+	SymbolLine(20 10 20 50 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(0 35 0 45 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(15 30 20 35 8)
+)
+Symbol('e' 12)
+(
+	SymbolLine(5 50 20 50 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(0 35 0 45 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(0 40 20 40 8)
+	SymbolLine(20 40 20 35 8)
+)
+Symbol('f' 10)
+(
+	SymbolLine(5 15 5 50 8)
+	SymbolLine(5 15 10 10 8)
+	SymbolLine(10 10 15 10 8)
+	SymbolLine(0 30 10 30 8)
+)
+Symbol('g' 12)
+(
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(0 35 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(0 60 5 65 8)
+	SymbolLine(5 65 15 65 8)
+	SymbolLine(15 65 20 60 8)
+	SymbolLine(20 30 20 60 8)
+)
+Symbol('h' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(20 35 20 50 8)
+)
+Symbol('i' 10)
+(
+	SymbolLine(0 20 0 25 8)
+	SymbolLine(0 35 0 50 8)
+)
+Symbol('j' 10)
+(
+	SymbolLine(5 20 5 25 8)
+	SymbolLine(5 35 5 60 8)
+	SymbolLine(0 65 5 60 8)
+)
+Symbol('k' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 35 15 50 8)
+	SymbolLine(0 35 10 25 8)
+)
+Symbol('l' 10)
+(
+	SymbolLine(0 10 0 45 8)
+	SymbolLine(0 45 5 50 8)
+)
+Symbol('m' 12)
+(
+	SymbolLine(5 35 5 50 8)
+	SymbolLine(5 35 10 30 8)
+	SymbolLine(10 30 15 30 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(20 35 20 50 8)
+	SymbolLine(20 35 25 30 8)
+	SymbolLine(25 30 30 30 8)
+	SymbolLine(30 30 35 35 8)
+	SymbolLine(35 35 35 50 8)
+	SymbolLine(0 30 5 35 8)
+)
+Symbol('n' 12)
+(
+	SymbolLine(5 35 5 50 8)
+	SymbolLine(5 35 10 30 8)
+	SymbolLine(10 30 15 30 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(20 35 20 50 8)
+	SymbolLine(0 30 5 35 8)
+)
+Symbol('o' 12)
+(
+	SymbolLine(0 35 0 45 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(20 35 20 45 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(0 45 5 50 8)
+)
+Symbol('p' 12)
+(
+	SymbolLine(5 35 5 65 8)
+	SymbolLine(0 30 5 35 8)
+	SymbolLine(5 35 10 30 8)
+	SymbolLine(10 30 20 30 8)
+	SymbolLine(20 30 25 35 8)
+	SymbolLine(25 35 25 45 8)
+	SymbolLine(20 50 25 45 8)
+	SymbolLine(10 50 20 50 8)
+	SymbolLine(5 45 10 50 8)
+)
+Symbol('q' 12)
+(
+	SymbolLine(20 35 20 65 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(0 35 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(15 50 20 45 8)
+)
+Symbol('r' 12)
+(
+	SymbolLine(5 35 5 50 8)
+	SymbolLine(5 35 10 30 8)
+	SymbolLine(10 30 20 30 8)
+	SymbolLine(0 30 5 35 8)
+)
+Symbol('s' 12)
+(
+	SymbolLine(5 50 20 50 8)
+	SymbolLine(20 50 25 45 8)
+	SymbolLine(20 40 25 45 8)
+	SymbolLine(5 40 20 40 8)
+	SymbolLine(0 35 5 40 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(5 30 20 30 8)
+	SymbolLine(20 30 25 35 8)
+	SymbolLine(0 45 5 50 8)
+)
+Symbol('t' 10)
+(
+	SymbolLine(5 10 5 45 8)
+	SymbolLine(5 45 10 50 8)
+	SymbolLine(0 25 10 25 8)
+)
+Symbol('u' 12)
+(
+	SymbolLine(0 30 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(20 30 20 45 8)
+)
+Symbol('v' 12)
+(
+	SymbolLine(0 30 0 40 8)
+	SymbolLine(0 40 10 50 8)
+	SymbolLine(10 50 20 40 8)
+	SymbolLine(20 30 20 40 8)
+)
+Symbol('w' 12)
+(
+	SymbolLine(0 30 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 50 10 50 8)
+	SymbolLine(10 50 15 45 8)
+	SymbolLine(15 30 15 45 8)
+	SymbolLine(15 45 20 50 8)
+	SymbolLine(20 50 25 50 8)
+	SymbolLine(25 50 30 45 8)
+	SymbolLine(30 30 30 45 8)
+)
+Symbol('x' 12)
+(
+	SymbolLine(0 30 20 50 8)
+	SymbolLine(0 50 20 30 8)
+)
+Symbol('y' 12)
+(
+	SymbolLine(0 30 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(20 30 20 60 8)
+	SymbolLine(15 65 20 60 8)
+	SymbolLine(5 65 15 65 8)
+	SymbolLine(0 60 5 65 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(15 50 20 45 8)
+)
+Symbol('z' 12)
+(
+	SymbolLine(0 30 20 30 8)
+	SymbolLine(0 50 20 30 8)
+	SymbolLine(0 50 20 50 8)
+)
+Symbol('{' 12)
+(
+	SymbolLine(5 15 10 10 8)
+	SymbolLine(5 15 5 25 8)
+	SymbolLine(0 30 5 25 8)
+	SymbolLine(0 30 5 35 8)
+	SymbolLine(5 35 5 45 8)
+	SymbolLine(5 45 10 50 8)
+)
+Symbol('|' 12)
+(
+	SymbolLine(0 10 0 50 8)
+)
+Symbol('}' 12)
+(
+	SymbolLine(0 10 5 15 8)
+	SymbolLine(5 15 5 25 8)
+	SymbolLine(5 25 10 30 8)
+	SymbolLine(5 35 10 30 8)
+	SymbolLine(5 35 5 45 8)
+	SymbolLine(0 50 5 45 8)
+)
+Symbol('~' 12)
+(
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(5 30 10 30 8)
+	SymbolLine(10 30 15 35 8)
+	SymbolLine(15 35 20 35 8)
+	SymbolLine(20 35 25 30 8)
+)
+
+Element["" "CONNECTOR-3-1" "CONN1" "unknown" 30000 100000 20000 -10000 0 100 ""]
+(
+	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
+	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
+	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2"]
+	ElementLine [-5000 5000 25000 5000 1000]
+	ElementLine [25000 -5000 25000 5000 1000]
+	ElementLine [-5000 -5000 25000 -5000 1000]
+	ElementLine [-5000 -5000 -5000 5000 1000]
+	ElementLine [5000 -5000 5000 5000 1000]
+	ElementLine [-5000 -5000 5000 -5000 1000]
+
+	)
+
+Element["" "TO92" "Q2" "unknown" 160000 50000 13000 1000 3 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [7000 3000 7000 17000 1000]
+	ElementArc [0 10000 10000 10000 225 270 1000]
+
+	)
+
+Element["" "R025" "R5" "1k" 110000 30000 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [30000 5000 10000 5000 2000]
+	ElementLine [10000 5000 10000 -5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "TO92" "Q1" "unknown" 160000 30000 -13000 -1000 1 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 -10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 -20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [-7000 -17000 -7000 -3000 1000]
+	ElementArc [0 -10000 10000 10000 45 270 1000]
+
+	)
+
+Element["" "R025" "R9" "10k" 150000 40000 -12000 2000 2 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[-40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [-30000 5000 -10000 5000 2000]
+	ElementLine [-30000 -5000 -30000 5000 2000]
+	ElementLine [-30000 -5000 -10000 -5000 2000]
+	ElementLine [-10000 -5000 -10000 5000 2000]
+	ElementLine [-10000 0 0 0 2000]
+	ElementLine [-40000 0 -30000 0 2000]
+
+	)
+
+Element["" "R025" "R3" "470" 50000 30000 -500 14500 3 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [5000 10000 5000 30000 2000]
+	ElementLine [-5000 30000 5000 30000 2000]
+	ElementLine [-5000 10000 -5000 30000 2000]
+	ElementLine [-5000 10000 5000 10000 2000]
+	ElementLine [0 0 0 10000 2000]
+	ElementLine [0 30000 0 40000 2000]
+
+	)
+
+Element["" "TBLOCK2" "TB2" "unknown" 130000 90000 0 -35000 0 100 ""]
+(
+	Pin[-10000 0 10000 2400 11000 5600 "" "1" "square"]
+	Pin[10000 0 10000 2400 11000 5600 "" "2" ""]
+	ElementLine [-20000 20000 20000 20000 1000]
+	ElementLine [-20000 -20000 20000 -20000 1000]
+	ElementLine [-20000 -20000 -20000 20000 1000]
+	ElementLine [20000 -20000 20000 20000 1000]
+
+	)
+
+Element["" "R025" "R4" "470" 40000 50000 2000 12000 3 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [5000 10000 5000 30000 2000]
+	ElementLine [-5000 30000 5000 30000 2000]
+	ElementLine [-5000 10000 -5000 30000 2000]
+	ElementLine [-5000 10000 5000 10000 2000]
+	ElementLine [0 0 0 10000 2000]
+	ElementLine [0 30000 0 40000 2000]
+
+	)
+
+Element["" "R025" "R2" "470" 60000 20000 2000 12000 3 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [5000 10000 5000 30000 2000]
+	ElementLine [-5000 30000 5000 30000 2000]
+	ElementLine [-5000 10000 -5000 30000 2000]
+	ElementLine [-5000 10000 5000 10000 2000]
+	ElementLine [0 0 0 10000 2000]
+	ElementLine [0 30000 0 40000 2000]
+
+	)
+
+Element["" "R025" "R1" "470" 40000 10000 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [10000 5000 30000 5000 2000]
+	ElementLine [10000 -5000 10000 5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "R025" "R8" "1k" 210000 100000 -2000 -12000 1 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 -40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [-5000 -30000 -5000 -10000 2000]
+	ElementLine [-5000 -30000 5000 -30000 2000]
+	ElementLine [5000 -30000 5000 -10000 2000]
+	ElementLine [-5000 -10000 5000 -10000 2000]
+	ElementLine [0 -10000 0 0 2000]
+	ElementLine [0 -40000 0 -30000 2000]
+
+	)
+
+Element["" "R025" "R6" "1k" 110000 50000 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [30000 5000 10000 5000 2000]
+	ElementLine [10000 5000 10000 -5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "R025" "R10" "10k" 110000 60000 10000 0 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2500]
+	ElementLine [30000 -5000 30000 5000 2500]
+	ElementLine [30000 5000 10000 5000 2500]
+	ElementLine [10000 5000 10000 -5000 2500]
+	ElementLine [0 0 10000 0 2500]
+	ElementLine [30000 0 40000 0 2500]
+
+	)
+
+Element["" "TBLOCK2" "TB1" "unknown" 190000 20000 10000 -10000 0 100 ""]
+(
+	Pin[-10000 0 10000 2400 11000 5600 "" "1" "square"]
+	Pin[10000 0 10000 2400 11000 5600 "" "2" ""]
+	ElementLine [-20000 20000 20000 20000 1000]
+	ElementLine [-20000 -20000 20000 -20000 1000]
+	ElementLine [-20000 -20000 -20000 20000 1000]
+	ElementLine [20000 -20000 20000 20000 1000]
+
+	)
+
+Element["" "TO92" "Q3" "unknown" 220000 100000 -13000 -1000 1 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 -10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 -20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [-7000 -17000 -7000 -3000 1000]
+	ElementArc [0 -10000 10000 10000 45 270 1000]
+
+	)
+
+Element["" "TO92" "Q4" "unknown" 220000 60000 -13000 -1000 1 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 -10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 -20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [-7000 -17000 -7000 -3000 1000]
+	ElementArc [0 -10000 10000 10000 45 270 1000]
+
+	)
+
+Element["" "R025" "R12" "10k" 170000 50000 12500 -2500 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [10000 5000 30000 5000 2000]
+	ElementLine [10000 -5000 10000 5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "R025" "R11" "10k" 200000 80000 -18000 2000 2 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[-40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [-30000 5000 -10000 5000 2000]
+	ElementLine [-30000 -5000 -30000 5000 2000]
+	ElementLine [-30000 -5000 -10000 -5000 2000]
+	ElementLine [-10000 -5000 -10000 5000 2000]
+	ElementLine [-10000 0 0 0 2000]
+	ElementLine [-40000 0 -30000 0 2000]
+
+	)
+
+Element["" "R025" "R7" "1k" 160000 90000 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [10000 5000 30000 5000 2000]
+	ElementLine [10000 -5000 10000 5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "DIP16" "U1" "unknown" 70000 20000 17000 5000 3 100 ""]
+(
+	Pin[0 0 6000 3000 6600 2800 "1" "1" "square"]
+	Pin[0 10000 6000 3000 6600 2800 "2" "2" ""]
+	Pin[0 20000 6000 3000 6600 2800 "3" "3" ""]
+	Pin[0 30000 6000 3000 6600 2800 "4" "4" ""]
+	Pin[0 40000 6000 3000 6600 2800 "5" "5" ""]
+	Pin[0 50000 6000 3000 6600 2800 "6" "6" ""]
+	Pin[0 60000 6000 3000 6600 2800 "7" "7" ""]
+	Pin[0 70000 6000 3000 6600 2800 "8" "8" ""]
+	Pin[30000 70000 6000 3000 6600 2800 "9" "9" ""]
+	Pin[30000 60000 6000 3000 6600 2800 "10" "10" ""]
+	Pin[30000 50000 6000 3000 6600 2800 "11" "11" ""]
+	Pin[30000 40000 6000 3000 6600 2800 "12" "12" ""]
+	Pin[30000 30000 6000 3000 6600 2800 "13" "13" ""]
+	Pin[30000 20000 6000 3000 6600 2800 "14" "14" ""]
+	Pin[30000 10000 6000 3000 6600 2800 "15" "15" ""]
+	Pin[30000 0 6000 3000 6600 2800 "16" "16" ""]
+	ElementLine [-5000 -5000 -5000 75000 1000]
+	ElementLine [-5000 75000 35000 75000 1000]
+	ElementLine [35000 75000 35000 -5000 1000]
+	ElementLine [-5000 -5000 10000 -5000 1000]
+	ElementLine [20000 -5000 35000 -5000 1000]
+	ElementArc [15000 -5000 5000 5000 0 180 1000]
+
+	)
+
+Element["" "CONNECTOR-3-1" "CONN1" "unknown" 30000 100000 20000 -10000 0 100 ""]
+(
+	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
+	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
+	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2"]
+	ElementLine [-5000 5000 25000 5000 1000]
+	ElementLine [25000 -5000 25000 5000 1000]
+	ElementLine [-5000 -5000 25000 -5000 1000]
+	ElementLine [-5000 -5000 -5000 5000 1000]
+	ElementLine [5000 -5000 5000 5000 1000]
+	ElementLine [-5000 -5000 5000 -5000 1000]
+
+	)
+
+Element["" "TO92" "Q2" "unknown" 160000 50000 13000 1000 3 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [7000 3000 7000 17000 1000]
+	ElementArc [0 10000 10000 10000 225 270 1000]
+
+	)
+
+Element["" "R025" "R5" "1k" 110000 30000 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [30000 5000 10000 5000 2000]
+	ElementLine [10000 5000 10000 -5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "TO92" "Q1" "unknown" 160000 30000 -13000 -1000 1 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 -10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 -20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [-7000 -17000 -7000 -3000 1000]
+	ElementArc [0 -10000 10000 10000 45 270 1000]
+
+	)
+
+Element["" "R025" "R9" "10k" 150000 40000 -12000 2000 2 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[-40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [-30000 5000 -10000 5000 2000]
+	ElementLine [-30000 -5000 -30000 5000 2000]
+	ElementLine [-30000 -5000 -10000 -5000 2000]
+	ElementLine [-10000 -5000 -10000 5000 2000]
+	ElementLine [-10000 0 0 0 2000]
+	ElementLine [-40000 0 -30000 0 2000]
+
+	)
+
+Element["" "R025" "R3" "470" 50000 30000 -500 14500 3 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [5000 10000 5000 30000 2000]
+	ElementLine [-5000 30000 5000 30000 2000]
+	ElementLine [-5000 10000 -5000 30000 2000]
+	ElementLine [-5000 10000 5000 10000 2000]
+	ElementLine [0 0 0 10000 2000]
+	ElementLine [0 30000 0 40000 2000]
+
+	)
+
+Element["" "TBLOCK2" "TB2" "unknown" 130000 90000 0 -35000 0 100 ""]
+(
+	Pin[-10000 0 10000 2400 11000 5600 "" "1" "square"]
+	Pin[10000 0 10000 2400 11000 5600 "" "2" ""]
+	ElementLine [-20000 20000 20000 20000 1000]
+	ElementLine [-20000 -20000 20000 -20000 1000]
+	ElementLine [-20000 -20000 -20000 20000 1000]
+	ElementLine [20000 -20000 20000 20000 1000]
+
+	)
+
+Element["" "R025" "R4" "470" 40000 50000 2000 12000 3 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [5000 10000 5000 30000 2000]
+	ElementLine [-5000 30000 5000 30000 2000]
+	ElementLine [-5000 10000 -5000 30000 2000]
+	ElementLine [-5000 10000 5000 10000 2000]
+	ElementLine [0 0 0 10000 2000]
+	ElementLine [0 30000 0 40000 2000]
+
+	)
+
+Element["" "R025" "R2" "470" 60000 20000 2000 12000 3 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [5000 10000 5000 30000 2000]
+	ElementLine [-5000 30000 5000 30000 2000]
+	ElementLine [-5000 10000 -5000 30000 2000]
+	ElementLine [-5000 10000 5000 10000 2000]
+	ElementLine [0 0 0 10000 2000]
+	ElementLine [0 30000 0 40000 2000]
+
+	)
+
+Element["" "R025" "R1" "470" 40000 10000 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [10000 5000 30000 5000 2000]
+	ElementLine [10000 -5000 10000 5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "R025" "R8" "1k" 210000 100000 -2000 -12000 1 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 -40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [-5000 -30000 -5000 -10000 2000]
+	ElementLine [-5000 -30000 5000 -30000 2000]
+	ElementLine [5000 -30000 5000 -10000 2000]
+	ElementLine [-5000 -10000 5000 -10000 2000]
+	ElementLine [0 -10000 0 0 2000]
+	ElementLine [0 -40000 0 -30000 2000]
+
+	)
+
+Element["" "R025" "R6" "1k" 110000 50000 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [30000 5000 10000 5000 2000]
+	ElementLine [10000 5000 10000 -5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "R025" "R10" "10k" 110000 60000 10000 0 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2500]
+	ElementLine [30000 -5000 30000 5000 2500]
+	ElementLine [30000 5000 10000 5000 2500]
+	ElementLine [10000 5000 10000 -5000 2500]
+	ElementLine [0 0 10000 0 2500]
+	ElementLine [30000 0 40000 0 2500]
+
+	)
+
+Element["" "TBLOCK2" "TB1" "unknown" 190000 20000 10000 -10000 0 100 ""]
+(
+	Pin[-10000 0 10000 2400 11000 5600 "" "1" "square"]
+	Pin[10000 0 10000 2400 11000 5600 "" "2" ""]
+	ElementLine [-20000 20000 20000 20000 1000]
+	ElementLine [-20000 -20000 20000 -20000 1000]
+	ElementLine [-20000 -20000 -20000 20000 1000]
+	ElementLine [20000 -20000 20000 20000 1000]
+
+	)
+
+Element["" "TO92" "Q3" "unknown" 220000 100000 -13000 -1000 1 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 -10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 -20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [-7000 -17000 -7000 -3000 1000]
+	ElementArc [0 -10000 10000 10000 45 270 1000]
+
+	)
+
+Element["" "TO92" "Q4" "unknown" 220000 60000 -13000 -1000 1 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 -10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 -20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [-7000 -17000 -7000 -3000 1000]
+	ElementArc [0 -10000 10000 10000 45 270 1000]
+
+	)
+
+Element["" "R025" "R12" "10k" 170000 50000 12500 -2500 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [10000 5000 30000 5000 2000]
+	ElementLine [10000 -5000 10000 5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "R025" "R11" "10k" 200000 80000 -18000 2000 2 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[-40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [-30000 5000 -10000 5000 2000]
+	ElementLine [-30000 -5000 -30000 5000 2000]
+	ElementLine [-30000 -5000 -10000 -5000 2000]
+	ElementLine [-10000 -5000 -10000 5000 2000]
+	ElementLine [-10000 0 0 0 2000]
+	ElementLine [-40000 0 -30000 0 2000]
+
+	)
+
+Element["" "R025" "R7" "1k" 160000 90000 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [10000 5000 30000 5000 2000]
+	ElementLine [10000 -5000 10000 5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "DIP16" "U1" "unknown" 70000 20000 17000 5000 3 100 ""]
+(
+	Pin[0 0 6000 3000 6600 2800 "1" "1" "square"]
+	Pin[0 10000 6000 3000 6600 2800 "2" "2" ""]
+	Pin[0 20000 6000 3000 6600 2800 "3" "3" ""]
+	Pin[0 30000 6000 3000 6600 2800 "4" "4" ""]
+	Pin[0 40000 6000 3000 6600 2800 "5" "5" ""]
+	Pin[0 50000 6000 3000 6600 2800 "6" "6" ""]
+	Pin[0 60000 6000 3000 6600 2800 "7" "7" ""]
+	Pin[0 70000 6000 3000 6600 2800 "8" "8" ""]
+	Pin[30000 70000 6000 3000 6600 2800 "9" "9" ""]
+	Pin[30000 60000 6000 3000 6600 2800 "10" "10" ""]
+	Pin[30000 50000 6000 3000 6600 2800 "11" "11" ""]
+	Pin[30000 40000 6000 3000 6600 2800 "12" "12" ""]
+	Pin[30000 30000 6000 3000 6600 2800 "13" "13" ""]
+	Pin[30000 20000 6000 3000 6600 2800 "14" "14" ""]
+	Pin[30000 10000 6000 3000 6600 2800 "15" "15" ""]
+	Pin[30000 0 6000 3000 6600 2800 "16" "16" ""]
+	ElementLine [-5000 -5000 -5000 75000 1000]
+	ElementLine [-5000 75000 35000 75000 1000]
+	ElementLine [35000 75000 35000 -5000 1000]
+	ElementLine [-5000 -5000 10000 -5000 1000]
+	ElementLine [20000 -5000 35000 -5000 1000]
+	ElementArc [15000 -5000 5000 5000 0 180 1000]
+
+	)
+
+Element["" "CONNECTOR-3-1" "CONN1" "unknown" 30000 100000 20000 -10000 0 100 ""]
+(
+	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
+	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
+	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2"]
+	ElementLine [-5000 5000 25000 5000 1000]
+	ElementLine [25000 -5000 25000 5000 1000]
+	ElementLine [-5000 -5000 25000 -5000 1000]
+	ElementLine [-5000 -5000 -5000 5000 1000]
+	ElementLine [5000 -5000 5000 5000 1000]
+	ElementLine [-5000 -5000 5000 -5000 1000]
+
+	)
+
+Element["" "TO92" "Q2" "unknown" 160000 50000 13000 1000 3 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [7000 3000 7000 17000 1000]
+	ElementArc [0 10000 10000 10000 225 270 1000]
+
+	)
+
+Element["" "R025" "R5" "1k" 110000 30000 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [30000 5000 10000 5000 2000]
+	ElementLine [10000 5000 10000 -5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "TO92" "Q1" "unknown" 160000 30000 -13000 -1000 1 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 -10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 -20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [-7000 -17000 -7000 -3000 1000]
+	ElementArc [0 -10000 10000 10000 45 270 1000]
+
+	)
+
+Element["" "R025" "R9" "10k" 150000 40000 -12000 2000 2 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[-40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [-30000 5000 -10000 5000 2000]
+	ElementLine [-30000 -5000 -30000 5000 2000]
+	ElementLine [-30000 -5000 -10000 -5000 2000]
+	ElementLine [-10000 -5000 -10000 5000 2000]
+	ElementLine [-10000 0 0 0 2000]
+	ElementLine [-40000 0 -30000 0 2000]
+
+	)
+
+Element["" "R025" "R3" "470" 50000 30000 -500 14500 3 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [5000 10000 5000 30000 2000]
+	ElementLine [-5000 30000 5000 30000 2000]
+	ElementLine [-5000 10000 -5000 30000 2000]
+	ElementLine [-5000 10000 5000 10000 2000]
+	ElementLine [0 0 0 10000 2000]
+	ElementLine [0 30000 0 40000 2000]
+
+	)
+
+Element["" "TBLOCK2" "TB2" "unknown" 130000 90000 0 -35000 0 100 ""]
+(
+	Pin[-10000 0 10000 2400 11000 5600 "" "1" "square"]
+	Pin[10000 0 10000 2400 11000 5600 "" "2" ""]
+	ElementLine [-20000 20000 20000 20000 1000]
+	ElementLine [-20000 -20000 20000 -20000 1000]
+	ElementLine [-20000 -20000 -20000 20000 1000]
+	ElementLine [20000 -20000 20000 20000 1000]
+
+	)
+
+Element["" "R025" "R4" "470" 40000 50000 2000 12000 3 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [5000 10000 5000 30000 2000]
+	ElementLine [-5000 30000 5000 30000 2000]
+	ElementLine [-5000 10000 -5000 30000 2000]
+	ElementLine [-5000 10000 5000 10000 2000]
+	ElementLine [0 0 0 10000 2000]
+	ElementLine [0 30000 0 40000 2000]
+
+	)
+
+Element["" "R025" "R2" "470" 60000 20000 2000 12000 3 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [5000 10000 5000 30000 2000]
+	ElementLine [-5000 30000 5000 30000 2000]
+	ElementLine [-5000 10000 -5000 30000 2000]
+	ElementLine [-5000 10000 5000 10000 2000]
+	ElementLine [0 0 0 10000 2000]
+	ElementLine [0 30000 0 40000 2000]
+
+	)
+
+Element["" "R025" "R1" "470" 40000 10000 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [10000 5000 30000 5000 2000]
+	ElementLine [10000 -5000 10000 5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "R025" "R8" "1k" 210000 100000 -2000 -12000 1 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 -40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [-5000 -30000 -5000 -10000 2000]
+	ElementLine [-5000 -30000 5000 -30000 2000]
+	ElementLine [5000 -30000 5000 -10000 2000]
+	ElementLine [-5000 -10000 5000 -10000 2000]
+	ElementLine [0 -10000 0 0 2000]
+	ElementLine [0 -40000 0 -30000 2000]
+
+	)
+
+Element["" "R025" "R6" "1k" 110000 50000 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [30000 5000 10000 5000 2000]
+	ElementLine [10000 5000 10000 -5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "R025" "R10" "10k" 110000 60000 10000 0 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2500]
+	ElementLine [30000 -5000 30000 5000 2500]
+	ElementLine [30000 5000 10000 5000 2500]
+	ElementLine [10000 5000 10000 -5000 2500]
+	ElementLine [0 0 10000 0 2500]
+	ElementLine [30000 0 40000 0 2500]
+
+	)
+
+Element["" "TBLOCK2" "TB1" "unknown" 190000 20000 10000 -10000 0 100 ""]
+(
+	Pin[-10000 0 10000 2400 11000 5600 "" "1" "square"]
+	Pin[10000 0 10000 2400 11000 5600 "" "2" ""]
+	ElementLine [-20000 20000 20000 20000 1000]
+	ElementLine [-20000 -20000 20000 -20000 1000]
+	ElementLine [-20000 -20000 -20000 20000 1000]
+	ElementLine [20000 -20000 20000 20000 1000]
+
+	)
+
+Element["" "TO92" "Q3" "unknown" 220000 100000 -13000 -1000 1 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 -10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 -20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [-7000 -17000 -7000 -3000 1000]
+	ElementArc [0 -10000 10000 10000 45 270 1000]
+
+	)
+
+Element["" "TO92" "Q4" "unknown" 220000 60000 -13000 -1000 1 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 -10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 -20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [-7000 -17000 -7000 -3000 1000]
+	ElementArc [0 -10000 10000 10000 45 270 1000]
+
+	)
+
+Element["" "R025" "R12" "10k" 170000 50000 12500 -2500 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [10000 5000 30000 5000 2000]
+	ElementLine [10000 -5000 10000 5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "R025" "R11" "10k" 200000 80000 -18000 2000 2 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[-40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [-30000 5000 -10000 5000 2000]
+	ElementLine [-30000 -5000 -30000 5000 2000]
+	ElementLine [-30000 -5000 -10000 -5000 2000]
+	ElementLine [-10000 -5000 -10000 5000 2000]
+	ElementLine [-10000 0 0 0 2000]
+	ElementLine [-40000 0 -30000 0 2000]
+
+	)
+
+Element["" "R025" "R7" "1k" 160000 90000 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [10000 5000 30000 5000 2000]
+	ElementLine [10000 -5000 10000 5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "DIP16" "U1" "unknown" 70000 20000 17000 5000 3 100 ""]
+(
+	Pin[0 0 6000 3000 6600 2800 "1" "1" "square"]
+	Pin[0 10000 6000 3000 6600 2800 "2" "2" ""]
+	Pin[0 20000 6000 3000 6600 2800 "3" "3" ""]
+	Pin[0 30000 6000 3000 6600 2800 "4" "4" ""]
+	Pin[0 40000 6000 3000 6600 2800 "5" "5" ""]
+	Pin[0 50000 6000 3000 6600 2800 "6" "6" ""]
+	Pin[0 60000 6000 3000 6600 2800 "7" "7" ""]
+	Pin[0 70000 6000 3000 6600 2800 "8" "8" ""]
+	Pin[30000 70000 6000 3000 6600 2800 "9" "9" ""]
+	Pin[30000 60000 6000 3000 6600 2800 "10" "10" ""]
+	Pin[30000 50000 6000 3000 6600 2800 "11" "11" ""]
+	Pin[30000 40000 6000 3000 6600 2800 "12" "12" ""]
+	Pin[30000 30000 6000 3000 6600 2800 "13" "13" ""]
+	Pin[30000 20000 6000 3000 6600 2800 "14" "14" ""]
+	Pin[30000 10000 6000 3000 6600 2800 "15" "15" ""]
+	Pin[30000 0 6000 3000 6600 2800 "16" "16" ""]
+	ElementLine [-5000 -5000 -5000 75000 1000]
+	ElementLine [-5000 75000 35000 75000 1000]
+	ElementLine [35000 75000 35000 -5000 1000]
+	ElementLine [-5000 -5000 10000 -5000 1000]
+	ElementLine [20000 -5000 35000 -5000 1000]
+	ElementArc [15000 -5000 5000 5000 0 180 1000]
+
+	)
+
+Element["" "CONNECTOR-3-1" "CONN1" "unknown" 30000 217500 20000 -10000 0 100 ""]
+(
+	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
+	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
+	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2"]
+	ElementLine [-5000 5000 25000 5000 1000]
+	ElementLine [25000 -5000 25000 5000 1000]
+	ElementLine [-5000 -5000 25000 -5000 1000]
+	ElementLine [-5000 -5000 -5000 5000 1000]
+	ElementLine [5000 -5000 5000 5000 1000]
+	ElementLine [-5000 -5000 5000 -5000 1000]
+
+	)
+
+Element["" "TO92" "Q2" "unknown" 160000 167500 13000 1000 3 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [7000 3000 7000 17000 1000]
+	ElementArc [0 10000 10000 10000 225 270 1000]
+
+	)
+
+Element["" "R025" "R5" "1k" 110000 147500 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [30000 5000 10000 5000 2000]
+	ElementLine [10000 5000 10000 -5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "TO92" "Q1" "unknown" 160000 147500 -13000 -1000 1 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 -10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 -20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [-7000 -17000 -7000 -3000 1000]
+	ElementArc [0 -10000 10000 10000 45 270 1000]
+
+	)
+
+Element["" "R025" "R9" "10k" 150000 157500 -12000 2000 2 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[-40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [-30000 5000 -10000 5000 2000]
+	ElementLine [-30000 -5000 -30000 5000 2000]
+	ElementLine [-30000 -5000 -10000 -5000 2000]
+	ElementLine [-10000 -5000 -10000 5000 2000]
+	ElementLine [-10000 0 0 0 2000]
+	ElementLine [-40000 0 -30000 0 2000]
+
+	)
+
+Element["" "R025" "R3" "470" 50000 147500 -500 14500 3 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [5000 10000 5000 30000 2000]
+	ElementLine [-5000 30000 5000 30000 2000]
+	ElementLine [-5000 10000 -5000 30000 2000]
+	ElementLine [-5000 10000 5000 10000 2000]
+	ElementLine [0 0 0 10000 2000]
+	ElementLine [0 30000 0 40000 2000]
+
+	)
+
+Element["" "TBLOCK2" "TB2" "unknown" 130000 207500 0 -35000 0 100 ""]
+(
+	Pin[-10000 0 10000 2400 11000 5600 "" "1" "square"]
+	Pin[10000 0 10000 2400 11000 5600 "" "2" ""]
+	ElementLine [-20000 20000 20000 20000 1000]
+	ElementLine [-20000 -20000 20000 -20000 1000]
+	ElementLine [-20000 -20000 -20000 20000 1000]
+	ElementLine [20000 -20000 20000 20000 1000]
+
+	)
+
+Element["" "R025" "R4" "470" 40000 167500 2000 12000 3 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [5000 10000 5000 30000 2000]
+	ElementLine [-5000 30000 5000 30000 2000]
+	ElementLine [-5000 10000 -5000 30000 2000]
+	ElementLine [-5000 10000 5000 10000 2000]
+	ElementLine [0 0 0 10000 2000]
+	ElementLine [0 30000 0 40000 2000]
+
+	)
+
+Element["" "R025" "R2" "470" 60000 137500 2000 12000 3 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [5000 10000 5000 30000 2000]
+	ElementLine [-5000 30000 5000 30000 2000]
+	ElementLine [-5000 10000 -5000 30000 2000]
+	ElementLine [-5000 10000 5000 10000 2000]
+	ElementLine [0 0 0 10000 2000]
+	ElementLine [0 30000 0 40000 2000]
+
+	)
+
+Element["" "R025" "R1" "470" 40000 127500 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [10000 5000 30000 5000 2000]
+	ElementLine [10000 -5000 10000 5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "R025" "R8" "1k" 210000 217500 -2000 -12000 1 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 -40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [-5000 -30000 -5000 -10000 2000]
+	ElementLine [-5000 -30000 5000 -30000 2000]
+	ElementLine [5000 -30000 5000 -10000 2000]
+	ElementLine [-5000 -10000 5000 -10000 2000]
+	ElementLine [0 -10000 0 0 2000]
+	ElementLine [0 -40000 0 -30000 2000]
+
+	)
+
+Element["" "R025" "R6" "1k" 110000 167500 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [30000 5000 10000 5000 2000]
+	ElementLine [10000 5000 10000 -5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "R025" "R10" "10k" 110000 177500 10000 0 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2500]
+	ElementLine [30000 -5000 30000 5000 2500]
+	ElementLine [30000 5000 10000 5000 2500]
+	ElementLine [10000 5000 10000 -5000 2500]
+	ElementLine [0 0 10000 0 2500]
+	ElementLine [30000 0 40000 0 2500]
+
+	)
+
+Element["" "TBLOCK2" "TB1" "unknown" 190000 137500 10000 -10000 0 100 ""]
+(
+	Pin[-10000 0 10000 2400 11000 5600 "" "1" "square"]
+	Pin[10000 0 10000 2400 11000 5600 "" "2" ""]
+	ElementLine [-20000 20000 20000 20000 1000]
+	ElementLine [-20000 -20000 20000 -20000 1000]
+	ElementLine [-20000 -20000 -20000 20000 1000]
+	ElementLine [20000 -20000 20000 20000 1000]
+
+	)
+
+Element["" "TO92" "Q3" "unknown" 220000 217500 -13000 -1000 1 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 -10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 -20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [-7000 -17000 -7000 -3000 1000]
+	ElementArc [0 -10000 10000 10000 45 270 1000]
+
+	)
+
+Element["" "TO92" "Q4" "unknown" 220000 177500 -13000 -1000 1 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 -10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 -20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [-7000 -17000 -7000 -3000 1000]
+	ElementArc [0 -10000 10000 10000 45 270 1000]
+
+	)
+
+Element["" "R025" "R12" "10k" 170000 167500 12500 -2500 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [10000 5000 30000 5000 2000]
+	ElementLine [10000 -5000 10000 5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "R025" "R11" "10k" 200000 197500 -18000 2000 2 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[-40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [-30000 5000 -10000 5000 2000]
+	ElementLine [-30000 -5000 -30000 5000 2000]
+	ElementLine [-30000 -5000 -10000 -5000 2000]
+	ElementLine [-10000 -5000 -10000 5000 2000]
+	ElementLine [-10000 0 0 0 2000]
+	ElementLine [-40000 0 -30000 0 2000]
+
+	)
+
+Element["" "R025" "R7" "1k" 160000 207500 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [10000 5000 30000 5000 2000]
+	ElementLine [10000 -5000 10000 5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "DIP16" "U1" "unknown" 70000 137500 17000 5000 3 100 ""]
+(
+	Pin[0 0 6000 3000 6600 2800 "1" "1" "square"]
+	Pin[0 10000 6000 3000 6600 2800 "2" "2" ""]
+	Pin[0 20000 6000 3000 6600 2800 "3" "3" ""]
+	Pin[0 30000 6000 3000 6600 2800 "4" "4" ""]
+	Pin[0 40000 6000 3000 6600 2800 "5" "5" ""]
+	Pin[0 50000 6000 3000 6600 2800 "6" "6" ""]
+	Pin[0 60000 6000 3000 6600 2800 "7" "7" ""]
+	Pin[0 70000 6000 3000 6600 2800 "8" "8" ""]
+	Pin[30000 70000 6000 3000 6600 2800 "9" "9" ""]
+	Pin[30000 60000 6000 3000 6600 2800 "10" "10" ""]
+	Pin[30000 50000 6000 3000 6600 2800 "11" "11" ""]
+	Pin[30000 40000 6000 3000 6600 2800 "12" "12" ""]
+	Pin[30000 30000 6000 3000 6600 2800 "13" "13" ""]
+	Pin[30000 20000 6000 3000 6600 2800 "14" "14" ""]
+	Pin[30000 10000 6000 3000 6600 2800 "15" "15" ""]
+	Pin[30000 0 6000 3000 6600 2800 "16" "16" ""]
+	ElementLine [-5000 -5000 -5000 75000 1000]
+	ElementLine [-5000 75000 35000 75000 1000]
+	ElementLine [35000 75000 35000 -5000 1000]
+	ElementLine [-5000 -5000 10000 -5000 1000]
+	ElementLine [20000 -5000 35000 -5000 1000]
+	ElementArc [15000 -5000 5000 5000 0 180 1000]
+
+	)
+
+Element["" "CONNECTOR-3-1" "CONN1" "unknown" 285000 100000 20000 -10000 0 100 ""]
+(
+	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
+	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
+	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2"]
+	ElementLine [-5000 5000 25000 5000 1000]
+	ElementLine [25000 -5000 25000 5000 1000]
+	ElementLine [-5000 -5000 25000 -5000 1000]
+	ElementLine [-5000 -5000 -5000 5000 1000]
+	ElementLine [5000 -5000 5000 5000 1000]
+	ElementLine [-5000 -5000 5000 -5000 1000]
+
+	)
+
+Element["" "TO92" "Q2" "unknown" 415000 50000 13000 1000 3 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [7000 3000 7000 17000 1000]
+	ElementArc [0 10000 10000 10000 225 270 1000]
+
+	)
+
+Element["" "R025" "R5" "1k" 365000 30000 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [30000 5000 10000 5000 2000]
+	ElementLine [10000 5000 10000 -5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "TO92" "Q1" "unknown" 415000 30000 -13000 -1000 1 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 -10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 -20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [-7000 -17000 -7000 -3000 1000]
+	ElementArc [0 -10000 10000 10000 45 270 1000]
+
+	)
+
+Element["" "R025" "R9" "10k" 405000 40000 -12000 2000 2 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[-40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [-30000 5000 -10000 5000 2000]
+	ElementLine [-30000 -5000 -30000 5000 2000]
+	ElementLine [-30000 -5000 -10000 -5000 2000]
+	ElementLine [-10000 -5000 -10000 5000 2000]
+	ElementLine [-10000 0 0 0 2000]
+	ElementLine [-40000 0 -30000 0 2000]
+
+	)
+
+Element["" "R025" "R3" "470" 305000 30000 -500 14500 3 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [5000 10000 5000 30000 2000]
+	ElementLine [-5000 30000 5000 30000 2000]
+	ElementLine [-5000 10000 -5000 30000 2000]
+	ElementLine [-5000 10000 5000 10000 2000]
+	ElementLine [0 0 0 10000 2000]
+	ElementLine [0 30000 0 40000 2000]
+
+	)
+
+Element["" "TBLOCK2" "TB2" "unknown" 385000 90000 0 -35000 0 100 ""]
+(
+	Pin[-10000 0 10000 2400 11000 5600 "" "1" "square"]
+	Pin[10000 0 10000 2400 11000 5600 "" "2" ""]
+	ElementLine [-20000 20000 20000 20000 1000]
+	ElementLine [-20000 -20000 20000 -20000 1000]
+	ElementLine [-20000 -20000 -20000 20000 1000]
+	ElementLine [20000 -20000 20000 20000 1000]
+
+	)
+
+Element["" "R025" "R4" "470" 295000 50000 2000 12000 3 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [5000 10000 5000 30000 2000]
+	ElementLine [-5000 30000 5000 30000 2000]
+	ElementLine [-5000 10000 -5000 30000 2000]
+	ElementLine [-5000 10000 5000 10000 2000]
+	ElementLine [0 0 0 10000 2000]
+	ElementLine [0 30000 0 40000 2000]
+
+	)
+
+Element["" "R025" "R2" "470" 315000 20000 2000 12000 3 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [5000 10000 5000 30000 2000]
+	ElementLine [-5000 30000 5000 30000 2000]
+	ElementLine [-5000 10000 -5000 30000 2000]
+	ElementLine [-5000 10000 5000 10000 2000]
+	ElementLine [0 0 0 10000 2000]
+	ElementLine [0 30000 0 40000 2000]
+
+	)
+
+Element["" "R025" "R1" "470" 295000 10000 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [10000 5000 30000 5000 2000]
+	ElementLine [10000 -5000 10000 5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "R025" "R8" "1k" 465000 100000 -2000 -12000 1 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 -40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [-5000 -30000 -5000 -10000 2000]
+	ElementLine [-5000 -30000 5000 -30000 2000]
+	ElementLine [5000 -30000 5000 -10000 2000]
+	ElementLine [-5000 -10000 5000 -10000 2000]
+	ElementLine [0 -10000 0 0 2000]
+	ElementLine [0 -40000 0 -30000 2000]
+
+	)
+
+Element["" "R025" "R6" "1k" 365000 50000 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [30000 5000 10000 5000 2000]
+	ElementLine [10000 5000 10000 -5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "R025" "R10" "10k" 365000 60000 10000 0 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2500]
+	ElementLine [30000 -5000 30000 5000 2500]
+	ElementLine [30000 5000 10000 5000 2500]
+	ElementLine [10000 5000 10000 -5000 2500]
+	ElementLine [0 0 10000 0 2500]
+	ElementLine [30000 0 40000 0 2500]
+
+	)
+
+Element["" "TBLOCK2" "TB1" "unknown" 445000 20000 10000 -10000 0 100 ""]
+(
+	Pin[-10000 0 10000 2400 11000 5600 "" "1" "square"]
+	Pin[10000 0 10000 2400 11000 5600 "" "2" ""]
+	ElementLine [-20000 20000 20000 20000 1000]
+	ElementLine [-20000 -20000 20000 -20000 1000]
+	ElementLine [-20000 -20000 -20000 20000 1000]
+	ElementLine [20000 -20000 20000 20000 1000]
+
+	)
+
+Element["" "TO92" "Q3" "unknown" 475000 100000 -13000 -1000 1 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 -10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 -20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [-7000 -17000 -7000 -3000 1000]
+	ElementArc [0 -10000 10000 10000 45 270 1000]
+
+	)
+
+Element["" "TO92" "Q4" "unknown" 475000 60000 -13000 -1000 1 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 -10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 -20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [-7000 -17000 -7000 -3000 1000]
+	ElementArc [0 -10000 10000 10000 45 270 1000]
+
+	)
+
+Element["" "R025" "R12" "10k" 425000 50000 12500 -2500 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [10000 5000 30000 5000 2000]
+	ElementLine [10000 -5000 10000 5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "R025" "R11" "10k" 455000 80000 -18000 2000 2 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[-40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [-30000 5000 -10000 5000 2000]
+	ElementLine [-30000 -5000 -30000 5000 2000]
+	ElementLine [-30000 -5000 -10000 -5000 2000]
+	ElementLine [-10000 -5000 -10000 5000 2000]
+	ElementLine [-10000 0 0 0 2000]
+	ElementLine [-40000 0 -30000 0 2000]
+
+	)
+
+Element["" "R025" "R7" "1k" 415000 90000 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [10000 5000 30000 5000 2000]
+	ElementLine [10000 -5000 10000 5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "DIP16" "U1" "unknown" 325000 20000 17000 5000 3 100 ""]
+(
+	Pin[0 0 6000 3000 6600 2800 "1" "1" "square"]
+	Pin[0 10000 6000 3000 6600 2800 "2" "2" ""]
+	Pin[0 20000 6000 3000 6600 2800 "3" "3" ""]
+	Pin[0 30000 6000 3000 6600 2800 "4" "4" ""]
+	Pin[0 40000 6000 3000 6600 2800 "5" "5" ""]
+	Pin[0 50000 6000 3000 6600 2800 "6" "6" ""]
+	Pin[0 60000 6000 3000 6600 2800 "7" "7" ""]
+	Pin[0 70000 6000 3000 6600 2800 "8" "8" ""]
+	Pin[30000 70000 6000 3000 6600 2800 "9" "9" ""]
+	Pin[30000 60000 6000 3000 6600 2800 "10" "10" ""]
+	Pin[30000 50000 6000 3000 6600 2800 "11" "11" ""]
+	Pin[30000 40000 6000 3000 6600 2800 "12" "12" ""]
+	Pin[30000 30000 6000 3000 6600 2800 "13" "13" ""]
+	Pin[30000 20000 6000 3000 6600 2800 "14" "14" ""]
+	Pin[30000 10000 6000 3000 6600 2800 "15" "15" ""]
+	Pin[30000 0 6000 3000 6600 2800 "16" "16" ""]
+	ElementLine [-5000 -5000 -5000 75000 1000]
+	ElementLine [-5000 75000 35000 75000 1000]
+	ElementLine [35000 75000 35000 -5000 1000]
+	ElementLine [-5000 -5000 10000 -5000 1000]
+	ElementLine [20000 -5000 35000 -5000 1000]
+	ElementArc [15000 -5000 5000 5000 0 180 1000]
+
+	)
+
+Element["" "CONNECTOR-3-1" "CONN1" "unknown" 285000 217500 20000 -10000 0 100 ""]
+(
+	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
+	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
+	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2"]
+	ElementLine [-5000 5000 25000 5000 1000]
+	ElementLine [25000 -5000 25000 5000 1000]
+	ElementLine [-5000 -5000 25000 -5000 1000]
+	ElementLine [-5000 -5000 -5000 5000 1000]
+	ElementLine [5000 -5000 5000 5000 1000]
+	ElementLine [-5000 -5000 5000 -5000 1000]
+
+	)
+
+Element["" "TO92" "Q2" "unknown" 415000 167500 13000 1000 3 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [7000 3000 7000 17000 1000]
+	ElementArc [0 10000 10000 10000 225 270 1000]
+
+	)
+
+Element["" "R025" "R5" "1k" 365000 147500 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [30000 5000 10000 5000 2000]
+	ElementLine [10000 5000 10000 -5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "TO92" "Q1" "unknown" 415000 147500 -13000 -1000 1 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 -10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 -20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [-7000 -17000 -7000 -3000 1000]
+	ElementArc [0 -10000 10000 10000 45 270 1000]
+
+	)
+
+Element["" "R025" "R9" "10k" 405000 157500 -12000 2000 2 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[-40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [-30000 5000 -10000 5000 2000]
+	ElementLine [-30000 -5000 -30000 5000 2000]
+	ElementLine [-30000 -5000 -10000 -5000 2000]
+	ElementLine [-10000 -5000 -10000 5000 2000]
+	ElementLine [-10000 0 0 0 2000]
+	ElementLine [-40000 0 -30000 0 2000]
+
+	)
+
+Element["" "R025" "R3" "470" 305000 147500 -500 14500 3 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [5000 10000 5000 30000 2000]
+	ElementLine [-5000 30000 5000 30000 2000]
+	ElementLine [-5000 10000 -5000 30000 2000]
+	ElementLine [-5000 10000 5000 10000 2000]
+	ElementLine [0 0 0 10000 2000]
+	ElementLine [0 30000 0 40000 2000]
+
+	)
+
+Element["" "TBLOCK2" "TB2" "unknown" 385000 207500 0 -35000 0 100 ""]
+(
+	Pin[-10000 0 10000 2400 11000 5600 "" "1" "square"]
+	Pin[10000 0 10000 2400 11000 5600 "" "2" ""]
+	ElementLine [-20000 20000 20000 20000 1000]
+	ElementLine [-20000 -20000 20000 -20000 1000]
+	ElementLine [-20000 -20000 -20000 20000 1000]
+	ElementLine [20000 -20000 20000 20000 1000]
+
+	)
+
+Element["" "R025" "R4" "470" 295000 167500 2000 12000 3 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [5000 10000 5000 30000 2000]
+	ElementLine [-5000 30000 5000 30000 2000]
+	ElementLine [-5000 10000 -5000 30000 2000]
+	ElementLine [-5000 10000 5000 10000 2000]
+	ElementLine [0 0 0 10000 2000]
+	ElementLine [0 30000 0 40000 2000]
+
+	)
+
+Element["" "R025" "R2" "470" 315000 137500 2000 12000 3 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [5000 10000 5000 30000 2000]
+	ElementLine [-5000 30000 5000 30000 2000]
+	ElementLine [-5000 10000 -5000 30000 2000]
+	ElementLine [-5000 10000 5000 10000 2000]
+	ElementLine [0 0 0 10000 2000]
+	ElementLine [0 30000 0 40000 2000]
+
+	)
+
+Element["" "R025" "R1" "470" 295000 127500 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [10000 5000 30000 5000 2000]
+	ElementLine [10000 -5000 10000 5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "R025" "R8" "1k" 465000 217500 -2000 -12000 1 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 -40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [-5000 -30000 -5000 -10000 2000]
+	ElementLine [-5000 -30000 5000 -30000 2000]
+	ElementLine [5000 -30000 5000 -10000 2000]
+	ElementLine [-5000 -10000 5000 -10000 2000]
+	ElementLine [0 -10000 0 0 2000]
+	ElementLine [0 -40000 0 -30000 2000]
+
+	)
+
+Element["" "R025" "R6" "1k" 365000 167500 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [30000 5000 10000 5000 2000]
+	ElementLine [10000 5000 10000 -5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "R025" "R10" "10k" 365000 177500 10000 0 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2500]
+	ElementLine [30000 -5000 30000 5000 2500]
+	ElementLine [30000 5000 10000 5000 2500]
+	ElementLine [10000 5000 10000 -5000 2500]
+	ElementLine [0 0 10000 0 2500]
+	ElementLine [30000 0 40000 0 2500]
+
+	)
+
+Element["" "TBLOCK2" "TB1" "unknown" 445000 137500 10000 -10000 0 100 ""]
+(
+	Pin[-10000 0 10000 2400 11000 5600 "" "1" "square"]
+	Pin[10000 0 10000 2400 11000 5600 "" "2" ""]
+	ElementLine [-20000 20000 20000 20000 1000]
+	ElementLine [-20000 -20000 20000 -20000 1000]
+	ElementLine [-20000 -20000 -20000 20000 1000]
+	ElementLine [20000 -20000 20000 20000 1000]
+
+	)
+
+Element["" "TO92" "Q3" "unknown" 475000 217500 -13000 -1000 1 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 -10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 -20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [-7000 -17000 -7000 -3000 1000]
+	ElementArc [0 -10000 10000 10000 45 270 1000]
+
+	)
+
+Element["" "TO92" "Q4" "unknown" 475000 177500 -13000 -1000 1 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 -10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 -20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [-7000 -17000 -7000 -3000 1000]
+	ElementArc [0 -10000 10000 10000 45 270 1000]
+
+	)
+
+Element["" "R025" "R12" "10k" 425000 167500 12500 -2500 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [10000 5000 30000 5000 2000]
+	ElementLine [10000 -5000 10000 5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "R025" "R11" "10k" 455000 197500 -18000 2000 2 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[-40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [-30000 5000 -10000 5000 2000]
+	ElementLine [-30000 -5000 -30000 5000 2000]
+	ElementLine [-30000 -5000 -10000 -5000 2000]
+	ElementLine [-10000 -5000 -10000 5000 2000]
+	ElementLine [-10000 0 0 0 2000]
+	ElementLine [-40000 0 -30000 0 2000]
+
+	)
+
+Element["" "R025" "R7" "1k" 415000 207500 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [10000 5000 30000 5000 2000]
+	ElementLine [10000 -5000 10000 5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "DIP16" "U1" "unknown" 325000 137500 17000 5000 3 100 ""]
+(
+	Pin[0 0 6000 3000 6600 2800 "1" "1" "square"]
+	Pin[0 10000 6000 3000 6600 2800 "2" "2" ""]
+	Pin[0 20000 6000 3000 6600 2800 "3" "3" ""]
+	Pin[0 30000 6000 3000 6600 2800 "4" "4" ""]
+	Pin[0 40000 6000 3000 6600 2800 "5" "5" ""]
+	Pin[0 50000 6000 3000 6600 2800 "6" "6" ""]
+	Pin[0 60000 6000 3000 6600 2800 "7" "7" ""]
+	Pin[0 70000 6000 3000 6600 2800 "8" "8" ""]
+	Pin[30000 70000 6000 3000 6600 2800 "9" "9" ""]
+	Pin[30000 60000 6000 3000 6600 2800 "10" "10" ""]
+	Pin[30000 50000 6000 3000 6600 2800 "11" "11" ""]
+	Pin[30000 40000 6000 3000 6600 2800 "12" "12" ""]
+	Pin[30000 30000 6000 3000 6600 2800 "13" "13" ""]
+	Pin[30000 20000 6000 3000 6600 2800 "14" "14" ""]
+	Pin[30000 10000 6000 3000 6600 2800 "15" "15" ""]
+	Pin[30000 0 6000 3000 6600 2800 "16" "16" ""]
+	ElementLine [-5000 -5000 -5000 75000 1000]
+	ElementLine [-5000 75000 35000 75000 1000]
+	ElementLine [35000 75000 35000 -5000 1000]
+	ElementLine [-5000 -5000 10000 -5000 1000]
+	ElementLine [20000 -5000 35000 -5000 1000]
+	ElementArc [15000 -5000 5000 5000 0 180 1000]
+
+	)
+
+Element["" "CONNECTOR-3-1" "CONN1" "unknown" 285000 335000 20000 -10000 0 100 ""]
+(
+	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
+	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
+	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2"]
+	ElementLine [-5000 5000 25000 5000 1000]
+	ElementLine [25000 -5000 25000 5000 1000]
+	ElementLine [-5000 -5000 25000 -5000 1000]
+	ElementLine [-5000 -5000 -5000 5000 1000]
+	ElementLine [5000 -5000 5000 5000 1000]
+	ElementLine [-5000 -5000 5000 -5000 1000]
+
+	)
+
+Element["" "TO92" "Q2" "unknown" 415000 285000 13000 1000 3 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [7000 3000 7000 17000 1000]
+	ElementArc [0 10000 10000 10000 225 270 1000]
+
+	)
+
+Element["" "R025" "R5" "1k" 365000 265000 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [30000 5000 10000 5000 2000]
+	ElementLine [10000 5000 10000 -5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "TO92" "Q1" "unknown" 415000 265000 -13000 -1000 1 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 -10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 -20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [-7000 -17000 -7000 -3000 1000]
+	ElementArc [0 -10000 10000 10000 45 270 1000]
+
+	)
+
+Element["" "R025" "R9" "10k" 405000 275000 -12000 2000 2 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[-40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [-30000 5000 -10000 5000 2000]
+	ElementLine [-30000 -5000 -30000 5000 2000]
+	ElementLine [-30000 -5000 -10000 -5000 2000]
+	ElementLine [-10000 -5000 -10000 5000 2000]
+	ElementLine [-10000 0 0 0 2000]
+	ElementLine [-40000 0 -30000 0 2000]
+
+	)
+
+Element["" "R025" "R3" "470" 305000 265000 -500 14500 3 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [5000 10000 5000 30000 2000]
+	ElementLine [-5000 30000 5000 30000 2000]
+	ElementLine [-5000 10000 -5000 30000 2000]
+	ElementLine [-5000 10000 5000 10000 2000]
+	ElementLine [0 0 0 10000 2000]
+	ElementLine [0 30000 0 40000 2000]
+
+	)
+
+Element["" "TBLOCK2" "TB2" "unknown" 385000 325000 0 -35000 0 100 ""]
+(
+	Pin[-10000 0 10000 2400 11000 5600 "" "1" "square"]
+	Pin[10000 0 10000 2400 11000 5600 "" "2" ""]
+	ElementLine [-20000 20000 20000 20000 1000]
+	ElementLine [-20000 -20000 20000 -20000 1000]
+	ElementLine [-20000 -20000 -20000 20000 1000]
+	ElementLine [20000 -20000 20000 20000 1000]
+
+	)
+
+Element["" "R025" "R4" "470" 295000 285000 2000 12000 3 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [5000 10000 5000 30000 2000]
+	ElementLine [-5000 30000 5000 30000 2000]
+	ElementLine [-5000 10000 -5000 30000 2000]
+	ElementLine [-5000 10000 5000 10000 2000]
+	ElementLine [0 0 0 10000 2000]
+	ElementLine [0 30000 0 40000 2000]
+
+	)
+
+Element["" "R025" "R2" "470" 315000 255000 2000 12000 3 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [5000 10000 5000 30000 2000]
+	ElementLine [-5000 30000 5000 30000 2000]
+	ElementLine [-5000 10000 -5000 30000 2000]
+	ElementLine [-5000 10000 5000 10000 2000]
+	ElementLine [0 0 0 10000 2000]
+	ElementLine [0 30000 0 40000 2000]
+
+	)
+
+Element["" "R025" "R1" "470" 295000 245000 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [10000 5000 30000 5000 2000]
+	ElementLine [10000 -5000 10000 5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "R025" "R8" "1k" 465000 335000 -2000 -12000 1 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 -40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [-5000 -30000 -5000 -10000 2000]
+	ElementLine [-5000 -30000 5000 -30000 2000]
+	ElementLine [5000 -30000 5000 -10000 2000]
+	ElementLine [-5000 -10000 5000 -10000 2000]
+	ElementLine [0 -10000 0 0 2000]
+	ElementLine [0 -40000 0 -30000 2000]
+
+	)
+
+Element["" "R025" "R6" "1k" 365000 285000 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [30000 5000 10000 5000 2000]
+	ElementLine [10000 5000 10000 -5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "R025" "R10" "10k" 365000 295000 10000 0 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2500]
+	ElementLine [30000 -5000 30000 5000 2500]
+	ElementLine [30000 5000 10000 5000 2500]
+	ElementLine [10000 5000 10000 -5000 2500]
+	ElementLine [0 0 10000 0 2500]
+	ElementLine [30000 0 40000 0 2500]
+
+	)
+
+Element["" "TBLOCK2" "TB1" "unknown" 445000 255000 10000 -10000 0 100 ""]
+(
+	Pin[-10000 0 10000 2400 11000 5600 "" "1" "square"]
+	Pin[10000 0 10000 2400 11000 5600 "" "2" ""]
+	ElementLine [-20000 20000 20000 20000 1000]
+	ElementLine [-20000 -20000 20000 -20000 1000]
+	ElementLine [-20000 -20000 -20000 20000 1000]
+	ElementLine [20000 -20000 20000 20000 1000]
+
+	)
+
+Element["" "TO92" "Q3" "unknown" 475000 335000 -13000 -1000 1 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 -10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 -20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [-7000 -17000 -7000 -3000 1000]
+	ElementArc [0 -10000 10000 10000 45 270 1000]
+
+	)
+
+Element["" "TO92" "Q4" "unknown" 475000 295000 -13000 -1000 1 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 -10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 -20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [-7000 -17000 -7000 -3000 1000]
+	ElementArc [0 -10000 10000 10000 45 270 1000]
+
+	)
+
+Element["" "R025" "R12" "10k" 425000 285000 12500 -2500 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [10000 5000 30000 5000 2000]
+	ElementLine [10000 -5000 10000 5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "R025" "R11" "10k" 455000 315000 -18000 2000 2 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[-40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [-30000 5000 -10000 5000 2000]
+	ElementLine [-30000 -5000 -30000 5000 2000]
+	ElementLine [-30000 -5000 -10000 -5000 2000]
+	ElementLine [-10000 -5000 -10000 5000 2000]
+	ElementLine [-10000 0 0 0 2000]
+	ElementLine [-40000 0 -30000 0 2000]
+
+	)
+
+Element["" "R025" "R7" "1k" 415000 325000 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [10000 5000 30000 5000 2000]
+	ElementLine [10000 -5000 10000 5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "DIP16" "U1" "unknown" 325000 255000 17000 5000 3 100 ""]
+(
+	Pin[0 0 6000 3000 6600 2800 "1" "1" "square"]
+	Pin[0 10000 6000 3000 6600 2800 "2" "2" ""]
+	Pin[0 20000 6000 3000 6600 2800 "3" "3" ""]
+	Pin[0 30000 6000 3000 6600 2800 "4" "4" ""]
+	Pin[0 40000 6000 3000 6600 2800 "5" "5" ""]
+	Pin[0 50000 6000 3000 6600 2800 "6" "6" ""]
+	Pin[0 60000 6000 3000 6600 2800 "7" "7" ""]
+	Pin[0 70000 6000 3000 6600 2800 "8" "8" ""]
+	Pin[30000 70000 6000 3000 6600 2800 "9" "9" ""]
+	Pin[30000 60000 6000 3000 6600 2800 "10" "10" ""]
+	Pin[30000 50000 6000 3000 6600 2800 "11" "11" ""]
+	Pin[30000 40000 6000 3000 6600 2800 "12" "12" ""]
+	Pin[30000 30000 6000 3000 6600 2800 "13" "13" ""]
+	Pin[30000 20000 6000 3000 6600 2800 "14" "14" ""]
+	Pin[30000 10000 6000 3000 6600 2800 "15" "15" ""]
+	Pin[30000 0 6000 3000 6600 2800 "16" "16" ""]
+	ElementLine [-5000 -5000 -5000 75000 1000]
+	ElementLine [-5000 75000 35000 75000 1000]
+	ElementLine [35000 75000 35000 -5000 1000]
+	ElementLine [-5000 -5000 10000 -5000 1000]
+	ElementLine [20000 -5000 35000 -5000 1000]
+	ElementArc [15000 -5000 5000 5000 0 180 1000]
+
+	)
+
+Element["" "CONNECTOR-3-1" "CONN1" "unknown" 30000 335000 20000 -10000 0 100 ""]
+(
+	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
+	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
+	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2"]
+	ElementLine [-5000 5000 25000 5000 1000]
+	ElementLine [25000 -5000 25000 5000 1000]
+	ElementLine [-5000 -5000 25000 -5000 1000]
+	ElementLine [-5000 -5000 -5000 5000 1000]
+	ElementLine [5000 -5000 5000 5000 1000]
+	ElementLine [-5000 -5000 5000 -5000 1000]
+
+	)
+
+Element["" "TO92" "Q2" "unknown" 160000 285000 13000 1000 3 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 20000 7200 3000 7800 4200 "3" "3" "found"]
+	ElementLine [7000 3000 7000 17000 1000]
+	ElementArc [0 10000 10000 10000 225 270 1000]
+
+	)
+
+Element["" "R025" "R5" "1k" 110000 265000 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [30000 5000 10000 5000 2000]
+	ElementLine [10000 5000 10000 -5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "TO92" "Q1" "unknown" 160000 265000 -13000 -1000 1 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 -10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 -20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [-7000 -17000 -7000 -3000 1000]
+	ElementArc [0 -10000 10000 10000 45 270 1000]
+
+	)
+
+Element["" "R025" "R9" "10k" 150000 275000 -12000 2000 2 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[-40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [-30000 5000 -10000 5000 2000]
+	ElementLine [-30000 -5000 -30000 5000 2000]
+	ElementLine [-30000 -5000 -10000 -5000 2000]
+	ElementLine [-10000 -5000 -10000 5000 2000]
+	ElementLine [-10000 0 0 0 2000]
+	ElementLine [-40000 0 -30000 0 2000]
+
+	)
+
+Element["" "R025" "R3" "470" 50000 265000 -500 14500 3 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [5000 10000 5000 30000 2000]
+	ElementLine [-5000 30000 5000 30000 2000]
+	ElementLine [-5000 10000 -5000 30000 2000]
+	ElementLine [-5000 10000 5000 10000 2000]
+	ElementLine [0 0 0 10000 2000]
+	ElementLine [0 30000 0 40000 2000]
+
+	)
+
+Element["" "TBLOCK2" "TB2" "unknown" 130000 325000 0 -35000 0 100 ""]
+(
+	Pin[-10000 0 10000 2400 11000 5600 "" "1" "square"]
+	Pin[10000 0 10000 2400 11000 5600 "" "2" "found"]
+	ElementLine [-20000 20000 20000 20000 1000]
+	ElementLine [-20000 -20000 20000 -20000 1000]
+	ElementLine [-20000 -20000 -20000 20000 1000]
+	ElementLine [20000 -20000 20000 20000 1000]
+
+	)
+
+Element["" "R025" "R4" "470" 40000 285000 2000 12000 3 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [5000 10000 5000 30000 2000]
+	ElementLine [-5000 30000 5000 30000 2000]
+	ElementLine [-5000 10000 -5000 30000 2000]
+	ElementLine [-5000 10000 5000 10000 2000]
+	ElementLine [0 0 0 10000 2000]
+	ElementLine [0 30000 0 40000 2000]
+
+	)
+
+Element["" "R025" "R2" "470" 60000 255000 2000 12000 3 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [5000 10000 5000 30000 2000]
+	ElementLine [-5000 30000 5000 30000 2000]
+	ElementLine [-5000 10000 -5000 30000 2000]
+	ElementLine [-5000 10000 5000 10000 2000]
+	ElementLine [0 0 0 10000 2000]
+	ElementLine [0 30000 0 40000 2000]
+
+	)
+
+Element["" "R025" "R1" "470" 40000 245000 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [10000 5000 30000 5000 2000]
+	ElementLine [10000 -5000 10000 5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "R025" "R8" "1k" 210000 335000 -2000 -12000 1 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square"]
+	Pin[0 -40000 6800 3000 7400 3800 "2" "2" ""]
+	ElementLine [-5000 -30000 -5000 -10000 2000]
+	ElementLine [-5000 -30000 5000 -30000 2000]
+	ElementLine [5000 -30000 5000 -10000 2000]
+	ElementLine [-5000 -10000 5000 -10000 2000]
+	ElementLine [0 -10000 0 0 2000]
+	ElementLine [0 -40000 0 -30000 2000]
+
+	)
+
+Element["" "R025" "R6" "1k" 110000 285000 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [30000 5000 10000 5000 2000]
+	ElementLine [10000 5000 10000 -5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "R025" "R10" "10k" 110000 295000 10000 0 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "found,square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2500]
+	ElementLine [30000 -5000 30000 5000 2500]
+	ElementLine [30000 5000 10000 5000 2500]
+	ElementLine [10000 5000 10000 -5000 2500]
+	ElementLine [0 0 10000 0 2500]
+	ElementLine [30000 0 40000 0 2500]
+
+	)
+
+Element["" "TBLOCK2" "TB1" "unknown" 190000 255000 10000 -10000 0 100 ""]
+(
+	Pin[-10000 0 10000 2400 11000 5600 "" "1" "square"]
+	Pin[10000 0 10000 2400 11000 5600 "" "2" ""]
+	ElementLine [-20000 20000 20000 20000 1000]
+	ElementLine [-20000 -20000 20000 -20000 1000]
+	ElementLine [-20000 -20000 -20000 20000 1000]
+	ElementLine [20000 -20000 20000 20000 1000]
+
+	)
+
+Element["" "TO92" "Q3" "unknown" 220000 335000 -13000 -1000 1 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 -10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 -20000 7200 3000 7800 4200 "3" "3" ""]
+	ElementLine [-7000 -17000 -7000 -3000 1000]
+	ElementArc [0 -10000 10000 10000 45 270 1000]
+
+	)
+
+Element["" "TO92" "Q4" "unknown" 220000 295000 -13000 -1000 1 100 ""]
+(
+	Pin[0 0 7200 3000 7800 4200 "1" "1" "square"]
+	Pin[0 -10000 7200 3000 7800 4200 "2" "2" ""]
+	Pin[0 -20000 7200 3000 7800 4200 "3" "3" "found"]
+	ElementLine [-7000 -17000 -7000 -3000 1000]
+	ElementArc [0 -10000 10000 10000 45 270 1000]
+
+	)
+
+Element["" "R025" "R12" "10k" 170000 285000 12500 -2500 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "found,square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [10000 5000 30000 5000 2000]
+	ElementLine [10000 -5000 10000 5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "R025" "R11" "10k" 200000 315000 -18000 2000 2 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[-40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [-30000 5000 -10000 5000 2000]
+	ElementLine [-30000 -5000 -30000 5000 2000]
+	ElementLine [-30000 -5000 -10000 -5000 2000]
+	ElementLine [-10000 -5000 -10000 5000 2000]
+	ElementLine [-10000 0 0 0 2000]
+	ElementLine [-40000 0 -30000 0 2000]
+
+	)
+
+Element["" "R025" "R7" "1k" 160000 325000 12000 -2000 0 100 ""]
+(
+	Pin[0 0 6800 3000 7400 3800 "1" "1" "square,edge2"]
+	Pin[40000 0 6800 3000 7400 3800 "2" "2" "edge2"]
+	ElementLine [10000 -5000 30000 -5000 2000]
+	ElementLine [30000 -5000 30000 5000 2000]
+	ElementLine [10000 5000 30000 5000 2000]
+	ElementLine [10000 -5000 10000 5000 2000]
+	ElementLine [0 0 10000 0 2000]
+	ElementLine [30000 0 40000 0 2000]
+
+	)
+
+Element["" "DIP16" "U1" "unknown" 70000 255000 17000 5000 3 100 ""]
+(
+	Pin[0 0 6000 3000 6600 2800 "1" "1" "square"]
+	Pin[0 10000 6000 3000 6600 2800 "2" "2" ""]
+	Pin[0 20000 6000 3000 6600 2800 "3" "3" ""]
+	Pin[0 30000 6000 3000 6600 2800 "4" "4" ""]
+	Pin[0 40000 6000 3000 6600 2800 "5" "5" ""]
+	Pin[0 50000 6000 3000 6600 2800 "6" "6" ""]
+	Pin[0 60000 6000 3000 6600 2800 "7" "7" ""]
+	Pin[0 70000 6000 3000 6600 2800 "8" "8" ""]
+	Pin[30000 70000 6000 3000 6600 2800 "9" "9" ""]
+	Pin[30000 60000 6000 3000 6600 2800 "10" "10" ""]
+	Pin[30000 50000 6000 3000 6600 2800 "11" "11" ""]
+	Pin[30000 40000 6000 3000 6600 2800 "12" "12" "found"]
+	Pin[30000 30000 6000 3000 6600 2800 "13" "13" ""]
+	Pin[30000 20000 6000 3000 6600 2800 "14" "14" ""]
+	Pin[30000 10000 6000 3000 6600 2800 "15" "15" ""]
+	Pin[30000 0 6000 3000 6600 2800 "16" "16" "found"]
+	ElementLine [-5000 -5000 -5000 75000 1000]
+	ElementLine [-5000 75000 35000 75000 1000]
+	ElementLine [35000 75000 35000 -5000 1000]
+	ElementLine [-5000 -5000 10000 -5000 1000]
+	ElementLine [20000 -5000 35000 -5000 1000]
+	ElementArc [15000 -5000 5000 5000 0 180 1000]
+
+	)
+Layer(1 "solder")
+(
+	Line[180000 20000 170000 30000 5000 2000 ""]
+	Line[114952 70000 99500 70000 5000 2000 ""]
+	Line[200000 80000 200000 90000 5000 2000 ""]
+	Line[220000 90000 200000 90000 5000 2000 ""]
+	Line[77500 47500 77500 91694 5000 2000 ""]
+	Line[70000 20000 80000 10000 5000 2000 ""]
+	Line[60000 20952 69048 30000 5000 2000 ""]
+	Line[40000 80000 30000 90000 5000 2000 ""]
+	Line[50000 30000 60000 20000 5000 2000 ""]
+	Line[70000 70000 60000 80000 5000 2000 ""]
+	Line[40000 50000 40000 10000 5000 2000 ""]
+	Line[150000 40000 150000 20000 5000 2000 ""]
+	Line[70000 30000 85000 45000 5000 2000 ""]
+	Line[150000 50000 150000 60000 5000 2000 ""]
+	Line[69194 100000 50000 100000 5000 2000 ""]
+	Line[70000 60000 60000 70000 5000 2000 ""]
+	Line[100000 10000 160000 10000 5000 2000 ""]
+	Line[60000 70000 50000 70000 5000 2000 ""]
+	Line[40000 100000 47500 107500 5000 2000 ""]
+	Line[60000 80000 40000 80000 5000 2000 ""]
+	Line[160000 90000 151000 99000 5000 2000 ""]
+	Line[77500 91694 69194 100000 5000 2000 ""]
+	Line[160000 20000 150000 20000 5000 2000 ""]
+	Line[30000 100000 30000 60000 5000 2000 ""]
+	Line[60000 20000 60000 20952 5000 2000 ""]
+	Line[70000 40000 77500 47500 5000 2000 ""]
+	Line[60000 60000 70000 50000 5000 2000 ""]
+	Line[160000 50000 160000 30000 5000 2000 ""]
+	Line[110000 30000 100000 30000 5000 2000 ""]
+	Line[100000 80000 92500 75000 5000 2000 "rubberend"]
+	Line[92500 75000 92500 47500 5000 2000 ""]
+	Line[92500 47500 100000 40000 5000 2000 ""]
+	Line[110000 80000 120000 90000 5000 2000 ""]
+	Line[70181 107500 85000 92681 5000 2000 ""]
+	Line[92500 32500 92500 17500 5000 2000 ""]
+	Line[100000 40000 92500 32500 5000 2000 ""]
+	Line[47500 107500 70181 107500 5000 2000 ""]
+	Line[77500 72500 70000 80000 5000 2000 ""]
+	Line[30000 60000 40000 50000 5000 2000 ""]
+	Line[85000 92681 85000 45000 5000 2000 ""]
+	Line[92500 17500 100000 10000 5000 2000 ""]
+	Line[40000 90000 70000 90000 5000 2000 ""]
+	Line[110000 40000 100000 40000 5000 2000 ""]
+	Line[100000 20000 115000 20000 5000 2000 ""]
+	Line[115000 20000 120000 25000 5000 2000 ""]
+	Line[120000 25000 120000 55000 5000 2000 ""]
+	Line[100000 90000 100000 102000 5000 2000 ""]
+	Line[220043 20000 200000 20000 5000 2000 ""]
+	Line[111000 113000 100000 102000 5000 2000 ""]
+	Line[100000 60000 115000 60000 5000 2000 ""]
+	Line[100000 50000 110000 50000 5000 2000 ""]
+	Line[130000 70000 130000 60000 5000 2000 ""]
+	Line[160000 60000 150000 60000 5000 2000 ""]
+	Line[140000 90000 140000 70000 5000 2000 ""]
+	Line[119000 70000 114000 70000 5000 2000 ""]
+	Line[220000 100000 230000 100000 5000 2000 ""]
+	Line[100000 80000 110000 80000 5000 2000 ""]
+	Line[130000 60000 120000 50000 5000 2000 ""]
+	Line[230000 100000 230000 30000 5000 2000 ""]
+	Line[170000 50000 180000 40000 5000 2000 ""]
+	Line[180000 40000 220000 40000 5000 2000 ""]
+	Line[170000 70000 130000 70000 5000 2000 ""]
+	Line[210000 50000 210000 60000 5000 2000 ""]
+	Line[115000 60000 120000 55000 5000 2000 ""]
+	Line[170000 98000 162000 106000 5000 2000 ""]
+	Line[130000 99000 130000 81000 5000 2000 ""]
+	Line[120000 90000 120000 106000 5000 2000 ""]
+	Line[210000 50000 220000 50000 5000 2000 ""]
+	Line[111000 113000 200000 113000 5000 2000 ""]
+	Line[230000 60000 220000 60000 5000 2000 ""]
+	Line[170000 98000 170000 90000 5000 2000 ""]
+	Line[210000 70000 190000 70000 5000 2000 ""]
+	Line[230000 29957 220043 20000 5000 2000 ""]
+	Line[170000 30000 160000 30000 5000 2000 ""]
+	Line[170000 70000 170000 50000 5000 2000 ""]
+	Line[220000 80000 210000 70000 5000 2000 ""]
+	Line[170000 90000 190000 70000 5000 2000 ""]
+	Line[180000 80000 160000 80000 5000 2000 ""]
+	Line[130000 81000 119000 70000 5000 2000 ""]
+	Line[162000 106000 120000 106000 5000 2000 ""]
+	Line[151000 99000 130000 99000 5000 2000 ""]
+	Line[200000 113000 210000 103000 5000 2000 ""]
+	Line[210000 103000 210000 100000 5000 2000 ""]
+	Line[180000 137500 170000 147500 5000 2000 ""]
+	Line[114952 187500 99500 187500 5000 2000 ""]
+	Line[200000 197500 200000 207500 5000 2000 ""]
+	Line[220000 207500 200000 207500 5000 2000 ""]
+	Line[77500 165000 77500 209194 5000 2000 ""]
+	Line[70000 137500 80000 127500 5000 2000 ""]
+	Line[60000 138452 69048 147500 5000 2000 ""]
+	Line[40000 197500 30000 207500 5000 2000 ""]
+	Line[50000 147500 60000 137500 5000 2000 ""]
+	Line[70000 187500 60000 197500 5000 2000 ""]
+	Line[40000 167500 40000 127500 5000 2000 ""]
+	Line[150000 157500 150000 137500 5000 2000 ""]
+	Line[70000 147500 85000 162500 5000 2000 ""]
+	Line[150000 167500 150000 177500 5000 2000 ""]
+	Line[69194 217500 50000 217500 5000 2000 ""]
+	Line[70000 177500 60000 187500 5000 2000 ""]
+	Line[100000 127500 160000 127500 5000 2000 ""]
+	Line[60000 187500 50000 187500 5000 2000 ""]
+	Line[40000 217500 47500 225000 5000 2000 ""]
+	Line[60000 197500 40000 197500 5000 2000 ""]
+	Line[160000 207500 151000 216500 5000 2000 ""]
+	Line[77500 209194 69194 217500 5000 2000 ""]
+	Line[160000 137500 150000 137500 5000 2000 ""]
+	Line[30000 217500 30000 177500 5000 2000 ""]
+	Line[60000 137500 60000 138452 5000 2000 ""]
+	Line[70000 157500 77500 165000 5000 2000 ""]
+	Line[60000 177500 70000 167500 5000 2000 ""]
+	Line[160000 167500 160000 147500 5000 2000 ""]
+	Line[110000 147500 100000 147500 5000 2000 ""]
+	Line[100000 197500 92500 192500 5000 2000 "rubberend"]
+	Line[92500 192500 92500 165000 5000 2000 ""]
+	Line[92500 165000 100000 157500 5000 2000 ""]
+	Line[110000 197500 120000 207500 5000 2000 ""]
+	Line[70181 225000 85000 210181 5000 2000 ""]
+	Line[92500 150000 92500 135000 5000 2000 ""]
+	Line[100000 157500 92500 150000 5000 2000 ""]
+	Line[47500 225000 70181 225000 5000 2000 ""]
+	Line[77500 190000 70000 197500 5000 2000 ""]
+	Line[30000 177500 40000 167500 5000 2000 ""]
+	Line[85000 210181 85000 162500 5000 2000 ""]
+	Line[92500 135000 100000 127500 5000 2000 ""]
+	Line[40000 207500 70000 207500 5000 2000 ""]
+	Line[110000 157500 100000 157500 5000 2000 ""]
+	Line[100000 137500 115000 137500 5000 2000 ""]
+	Line[115000 137500 120000 142500 5000 2000 ""]
+	Line[120000 142500 120000 172500 5000 2000 ""]
+	Line[100000 207500 100000 219500 5000 2000 ""]
+	Line[220043 137500 200000 137500 5000 2000 ""]
+	Line[111000 230500 100000 219500 5000 2000 ""]
+	Line[100000 177500 115000 177500 5000 2000 ""]
+	Line[100000 167500 110000 167500 5000 2000 ""]
+	Line[130000 187500 130000 177500 5000 2000 ""]
+	Line[160000 177500 150000 177500 5000 2000 ""]
+	Line[140000 207500 140000 187500 5000 2000 ""]
+	Line[119000 187500 114000 187500 5000 2000 ""]
+	Line[220000 217500 230000 217500 5000 2000 ""]
+	Line[100000 197500 110000 197500 5000 2000 ""]
+	Line[130000 177500 120000 167500 5000 2000 ""]
+	Line[230000 217500 230000 147500 5000 2000 ""]
+	Line[170000 167500 180000 157500 5000 2000 ""]
+	Line[180000 157500 220000 157500 5000 2000 ""]
+	Line[170000 187500 130000 187500 5000 2000 ""]
+	Line[210000 167500 210000 177500 5000 2000 ""]
+	Line[115000 177500 120000 172500 5000 2000 ""]
+	Line[170000 215500 162000 223500 5000 2000 ""]
+	Line[130000 216500 130000 198500 5000 2000 ""]
+	Line[120000 207500 120000 223500 5000 2000 ""]
+	Line[210000 167500 220000 167500 5000 2000 ""]
+	Line[111000 230500 200000 230500 5000 2000 ""]
+	Line[230000 177500 220000 177500 5000 2000 ""]
+	Line[170000 215500 170000 207500 5000 2000 ""]
+	Line[210000 187500 190000 187500 5000 2000 ""]
+	Line[230000 147457 220043 137500 5000 2000 ""]
+	Line[170000 147500 160000 147500 5000 2000 ""]
+	Line[170000 187500 170000 167500 5000 2000 ""]
+	Line[220000 197500 210000 187500 5000 2000 ""]
+	Line[170000 207500 190000 187500 5000 2000 ""]
+	Line[180000 197500 160000 197500 5000 2000 ""]
+	Line[130000 198500 119000 187500 5000 2000 ""]
+	Line[162000 223500 120000 223500 5000 2000 ""]
+	Line[151000 216500 130000 216500 5000 2000 ""]
+	Line[200000 230500 210000 220500 5000 2000 ""]
+	Line[210000 220500 210000 217500 5000 2000 ""]
+	Line[435000 20000 425000 30000 5000 2000 ""]
+	Line[369952 70000 354500 70000 5000 2000 ""]
+	Line[455000 80000 455000 90000 5000 2000 ""]
+	Line[475000 90000 455000 90000 5000 2000 ""]
+	Line[332500 47500 332500 91694 5000 2000 ""]
+	Line[325000 20000 335000 10000 5000 2000 ""]
+	Line[315000 20952 324048 30000 5000 2000 ""]
+	Line[295000 80000 285000 90000 5000 2000 ""]
+	Line[305000 30000 315000 20000 5000 2000 ""]
+	Line[325000 70000 315000 80000 5000 2000 ""]
+	Line[295000 50000 295000 10000 5000 2000 ""]
+	Line[405000 40000 405000 20000 5000 2000 ""]
+	Line[325000 30000 340000 45000 5000 2000 ""]
+	Line[405000 50000 405000 60000 5000 2000 ""]
+	Line[324194 100000 305000 100000 5000 2000 ""]
+	Line[325000 60000 315000 70000 5000 2000 ""]
+	Line[355000 10000 415000 10000 5000 2000 ""]
+	Line[315000 70000 305000 70000 5000 2000 ""]
+	Line[295000 100000 302500 107500 5000 2000 ""]
+	Line[315000 80000 295000 80000 5000 2000 ""]
+	Line[415000 90000 406000 99000 5000 2000 ""]
+	Line[332500 91694 324194 100000 5000 2000 ""]
+	Line[415000 20000 405000 20000 5000 2000 ""]
+	Line[285000 100000 285000 60000 5000 2000 ""]
+	Line[315000 20000 315000 20952 5000 2000 ""]
+	Line[325000 40000 332500 47500 5000 2000 ""]
+	Line[315000 60000 325000 50000 5000 2000 ""]
+	Line[415000 50000 415000 30000 5000 2000 ""]
+	Line[365000 30000 355000 30000 5000 2000 ""]
+	Line[355000 80000 347500 75000 5000 2000 "rubberend"]
+	Line[347500 75000 347500 47500 5000 2000 ""]
+	Line[347500 47500 355000 40000 5000 2000 ""]
+	Line[365000 80000 375000 90000 5000 2000 ""]
+	Line[325181 107500 340000 92681 5000 2000 ""]
+	Line[347500 32500 347500 17500 5000 2000 ""]
+	Line[355000 40000 347500 32500 5000 2000 ""]
+	Line[302500 107500 325181 107500 5000 2000 ""]
+	Line[332500 72500 325000 80000 5000 2000 ""]
+	Line[285000 60000 295000 50000 5000 2000 ""]
+	Line[340000 92681 340000 45000 5000 2000 ""]
+	Line[347500 17500 355000 10000 5000 2000 ""]
+	Line[295000 90000 325000 90000 5000 2000 ""]
+	Line[365000 40000 355000 40000 5000 2000 ""]
+	Line[355000 20000 370000 20000 5000 2000 ""]
+	Line[370000 20000 375000 25000 5000 2000 ""]
+	Line[375000 25000 375000 55000 5000 2000 ""]
+	Line[355000 90000 355000 102000 5000 2000 ""]
+	Line[475043 20000 455000 20000 5000 2000 ""]
+	Line[366000 113000 355000 102000 5000 2000 ""]
+	Line[355000 60000 370000 60000 5000 2000 ""]
+	Line[355000 50000 365000 50000 5000 2000 ""]
+	Line[385000 70000 385000 60000 5000 2000 ""]
+	Line[415000 60000 405000 60000 5000 2000 ""]
+	Line[395000 90000 395000 70000 5000 2000 ""]
+	Line[374000 70000 369000 70000 5000 2000 ""]
+	Line[475000 100000 485000 100000 5000 2000 ""]
+	Line[355000 80000 365000 80000 5000 2000 ""]
+	Line[385000 60000 375000 50000 5000 2000 ""]
+	Line[485000 100000 485000 30000 5000 2000 ""]
+	Line[425000 50000 435000 40000 5000 2000 ""]
+	Line[435000 40000 475000 40000 5000 2000 ""]
+	Line[425000 70000 385000 70000 5000 2000 ""]
+	Line[465000 50000 465000 60000 5000 2000 ""]
+	Line[370000 60000 375000 55000 5000 2000 ""]
+	Line[425000 98000 417000 106000 5000 2000 ""]
+	Line[385000 99000 385000 81000 5000 2000 ""]
+	Line[375000 90000 375000 106000 5000 2000 ""]
+	Line[465000 50000 475000 50000 5000 2000 ""]
+	Line[366000 113000 455000 113000 5000 2000 ""]
+	Line[485000 60000 475000 60000 5000 2000 ""]
+	Line[425000 98000 425000 90000 5000 2000 ""]
+	Line[465000 70000 445000 70000 5000 2000 ""]
+	Line[485000 29957 475043 20000 5000 2000 ""]
+	Line[425000 30000 415000 30000 5000 2000 ""]
+	Line[425000 70000 425000 50000 5000 2000 ""]
+	Line[475000 80000 465000 70000 5000 2000 ""]
+	Line[425000 90000 445000 70000 5000 2000 ""]
+	Line[435000 80000 415000 80000 5000 2000 ""]
+	Line[385000 81000 374000 70000 5000 2000 ""]
+	Line[417000 106000 375000 106000 5000 2000 ""]
+	Line[406000 99000 385000 99000 5000 2000 ""]
+	Line[455000 113000 465000 103000 5000 2000 ""]
+	Line[465000 103000 465000 100000 5000 2000 ""]
+	Line[435000 137500 425000 147500 5000 2000 ""]
+	Line[369952 187500 354500 187500 5000 2000 ""]
+	Line[455000 197500 455000 207500 5000 2000 ""]
+	Line[475000 207500 455000 207500 5000 2000 ""]
+	Line[332500 165000 332500 209194 5000 2000 ""]
+	Line[325000 137500 335000 127500 5000 2000 ""]
+	Line[315000 138452 324048 147500 5000 2000 ""]
+	Line[295000 197500 285000 207500 5000 2000 ""]
+	Line[305000 147500 315000 137500 5000 2000 ""]
+	Line[325000 187500 315000 197500 5000 2000 ""]
+	Line[295000 167500 295000 127500 5000 2000 ""]
+	Line[405000 157500 405000 137500 5000 2000 ""]
+	Line[325000 147500 340000 162500 5000 2000 ""]
+	Line[405000 167500 405000 177500 5000 2000 ""]
+	Line[324194 217500 305000 217500 5000 2000 ""]
+	Line[325000 177500 315000 187500 5000 2000 ""]
+	Line[355000 127500 415000 127500 5000 2000 ""]
+	Line[315000 187500 305000 187500 5000 2000 ""]
+	Line[295000 217500 302500 225000 5000 2000 ""]
+	Line[315000 197500 295000 197500 5000 2000 ""]
+	Line[415000 207500 406000 216500 5000 2000 ""]
+	Line[332500 209194 324194 217500 5000 2000 ""]
+	Line[415000 137500 405000 137500 5000 2000 ""]
+	Line[285000 217500 285000 177500 5000 2000 ""]
+	Line[315000 137500 315000 138452 5000 2000 ""]
+	Line[325000 157500 332500 165000 5000 2000 ""]
+	Line[315000 177500 325000 167500 5000 2000 ""]
+	Line[415000 167500 415000 147500 5000 2000 ""]
+	Line[365000 147500 355000 147500 5000 2000 ""]
+	Line[355000 197500 347500 192500 5000 2000 "rubberend"]
+	Line[347500 192500 347500 165000 5000 2000 ""]
+	Line[347500 165000 355000 157500 5000 2000 ""]
+	Line[365000 197500 375000 207500 5000 2000 ""]
+	Line[325181 225000 340000 210181 5000 2000 ""]
+	Line[347500 150000 347500 135000 5000 2000 ""]
+	Line[355000 157500 347500 150000 5000 2000 ""]
+	Line[302500 225000 325181 225000 5000 2000 ""]
+	Line[332500 190000 325000 197500 5000 2000 ""]
+	Line[285000 177500 295000 167500 5000 2000 ""]
+	Line[340000 210181 340000 162500 5000 2000 ""]
+	Line[347500 135000 355000 127500 5000 2000 ""]
+	Line[295000 207500 325000 207500 5000 2000 ""]
+	Line[365000 157500 355000 157500 5000 2000 ""]
+	Line[355000 137500 370000 137500 5000 2000 ""]
+	Line[370000 137500 375000 142500 5000 2000 ""]
+	Line[375000 142500 375000 172500 5000 2000 ""]
+	Line[355000 207500 355000 219500 5000 2000 ""]
+	Line[475043 137500 455000 137500 5000 2000 ""]
+	Line[366000 230500 355000 219500 5000 2000 ""]
+	Line[355000 177500 370000 177500 5000 2000 ""]
+	Line[355000 167500 365000 167500 5000 2000 ""]
+	Line[385000 187500 385000 177500 5000 2000 ""]
+	Line[415000 177500 405000 177500 5000 2000 ""]
+	Line[395000 207500 395000 187500 5000 2000 ""]
+	Line[374000 187500 369000 187500 5000 2000 ""]
+	Line[475000 217500 485000 217500 5000 2000 ""]
+	Line[355000 197500 365000 197500 5000 2000 ""]
+	Line[385000 177500 375000 167500 5000 2000 ""]
+	Line[485000 217500 485000 147500 5000 2000 ""]
+	Line[425000 167500 435000 157500 5000 2000 ""]
+	Line[435000 157500 475000 157500 5000 2000 ""]
+	Line[425000 187500 385000 187500 5000 2000 ""]
+	Line[465000 167500 465000 177500 5000 2000 ""]
+	Line[370000 177500 375000 172500 5000 2000 ""]
+	Line[425000 215500 417000 223500 5000 2000 ""]
+	Line[385000 216500 385000 198500 5000 2000 ""]
+	Line[375000 207500 375000 223500 5000 2000 ""]
+	Line[465000 167500 475000 167500 5000 2000 ""]
+	Line[366000 230500 455000 230500 5000 2000 ""]
+	Line[485000 177500 475000 177500 5000 2000 ""]
+	Line[425000 215500 425000 207500 5000 2000 ""]
+	Line[465000 187500 445000 187500 5000 2000 ""]
+	Line[485000 147457 475043 137500 5000 2000 ""]
+	Line[425000 147500 415000 147500 5000 2000 ""]
+	Line[425000 187500 425000 167500 5000 2000 ""]
+	Line[475000 197500 465000 187500 5000 2000 ""]
+	Line[425000 207500 445000 187500 5000 2000 ""]
+	Line[435000 197500 415000 197500 5000 2000 ""]
+	Line[385000 198500 374000 187500 5000 2000 ""]
+	Line[417000 223500 375000 223500 5000 2000 ""]
+	Line[406000 216500 385000 216500 5000 2000 ""]
+	Line[455000 230500 465000 220500 5000 2000 ""]
+	Line[465000 220500 465000 217500 5000 2000 ""]
+	Line[435000 255000 425000 265000 5000 2000 ""]
+	Line[369952 305000 354500 305000 5000 2000 ""]
+	Line[455000 315000 455000 325000 5000 2000 ""]
+	Line[475000 325000 455000 325000 5000 2000 ""]
+	Line[332500 282500 332500 326694 5000 2000 ""]
+	Line[325000 255000 335000 245000 5000 2000 ""]
+	Line[315000 255952 324048 265000 5000 2000 ""]
+	Line[295000 315000 285000 325000 5000 2000 ""]
+	Line[305000 265000 315000 255000 5000 2000 ""]
+	Line[325000 305000 315000 315000 5000 2000 ""]
+	Line[295000 285000 295000 245000 5000 2000 ""]
+	Line[405000 275000 405000 255000 5000 2000 ""]
+	Line[325000 265000 340000 280000 5000 2000 ""]
+	Line[405000 285000 405000 295000 5000 2000 ""]
+	Line[324194 335000 305000 335000 5000 2000 ""]
+	Line[325000 295000 315000 305000 5000 2000 ""]
+	Line[355000 245000 415000 245000 5000 2000 ""]
+	Line[315000 305000 305000 305000 5000 2000 ""]
+	Line[295000 335000 302500 342500 5000 2000 ""]
+	Line[315000 315000 295000 315000 5000 2000 ""]
+	Line[415000 325000 406000 334000 5000 2000 ""]
+	Line[332500 326694 324194 335000 5000 2000 ""]
+	Line[415000 255000 405000 255000 5000 2000 ""]
+	Line[285000 335000 285000 295000 5000 2000 ""]
+	Line[315000 255000 315000 255952 5000 2000 ""]
+	Line[325000 275000 332500 282500 5000 2000 ""]
+	Line[315000 295000 325000 285000 5000 2000 ""]
+	Line[415000 285000 415000 265000 5000 2000 ""]
+	Line[365000 265000 355000 265000 5000 2000 ""]
+	Line[355000 315000 347500 310000 5000 2000 "rubberend"]
+	Line[347500 310000 347500 282500 5000 2000 ""]
+	Line[347500 282500 355000 275000 5000 2000 ""]
+	Line[365000 315000 375000 325000 5000 2000 ""]
+	Line[325181 342500 340000 327681 5000 2000 ""]
+	Line[347500 267500 347500 252500 5000 2000 ""]
+	Line[355000 275000 347500 267500 5000 2000 ""]
+	Line[302500 342500 325181 342500 5000 2000 ""]
+	Line[332500 307500 325000 315000 5000 2000 ""]
+	Line[285000 295000 295000 285000 5000 2000 ""]
+	Line[340000 327681 340000 280000 5000 2000 ""]
+	Line[347500 252500 355000 245000 5000 2000 ""]
+	Line[295000 325000 325000 325000 5000 2000 ""]
+	Line[365000 275000 355000 275000 5000 2000 ""]
+	Line[355000 255000 370000 255000 5000 2000 ""]
+	Line[370000 255000 375000 260000 5000 2000 ""]
+	Line[375000 260000 375000 290000 5000 2000 ""]
+	Line[355000 325000 355000 337000 5000 2000 ""]
+	Line[475043 255000 455000 255000 5000 2000 ""]
+	Line[366000 348000 355000 337000 5000 2000 ""]
+	Line[355000 295000 370000 295000 5000 2000 ""]
+	Line[355000 285000 365000 285000 5000 2000 ""]
+	Line[385000 305000 385000 295000 5000 2000 ""]
+	Line[415000 295000 405000 295000 5000 2000 ""]
+	Line[395000 325000 395000 305000 5000 2000 ""]
+	Line[374000 305000 369000 305000 5000 2000 ""]
+	Line[475000 335000 485000 335000 5000 2000 ""]
+	Line[355000 315000 365000 315000 5000 2000 ""]
+	Line[385000 295000 375000 285000 5000 2000 ""]
+	Line[485000 335000 485000 265000 5000 2000 ""]
+	Line[425000 285000 435000 275000 5000 2000 ""]
+	Line[435000 275000 475000 275000 5000 2000 ""]
+	Line[425000 305000 385000 305000 5000 2000 ""]
+	Line[465000 285000 465000 295000 5000 2000 ""]
+	Line[370000 295000 375000 290000 5000 2000 ""]
+	Line[425000 333000 417000 341000 5000 2000 ""]
+	Line[385000 334000 385000 316000 5000 2000 ""]
+	Line[375000 325000 375000 341000 5000 2000 ""]
+	Line[465000 285000 475000 285000 5000 2000 ""]
+	Line[366000 348000 455000 348000 5000 2000 ""]
+	Line[485000 295000 475000 295000 5000 2000 ""]
+	Line[425000 333000 425000 325000 5000 2000 ""]
+	Line[465000 305000 445000 305000 5000 2000 ""]
+	Line[485000 264957 475043 255000 5000 2000 ""]
+	Line[425000 265000 415000 265000 5000 2000 ""]
+	Line[425000 305000 425000 285000 5000 2000 ""]
+	Line[475000 315000 465000 305000 5000 2000 ""]
+	Line[425000 325000 445000 305000 5000 2000 ""]
+	Line[435000 315000 415000 315000 5000 2000 ""]
+	Line[385000 316000 374000 305000 5000 2000 ""]
+	Line[417000 341000 375000 341000 5000 2000 ""]
+	Line[406000 334000 385000 334000 5000 2000 ""]
+	Line[455000 348000 465000 338000 5000 2000 ""]
+	Line[465000 338000 465000 335000 5000 2000 ""]
+	Line[180000 255000 170000 265000 5000 2000 ""]
+	Line[114952 305000 99500 305000 5000 2000 ""]
+	Line[200000 315000 200000 325000 5000 2000 ""]
+	Line[220000 325000 200000 325000 5000 2000 ""]
+	Line[77500 282500 77500 326694 5000 2000 ""]
+	Line[70000 255000 80000 245000 5000 2000 ""]
+	Line[60000 255952 69048 265000 5000 2000 ""]
+	Line[40000 315000 30000 325000 5000 2000 ""]
+	Line[50000 265000 60000 255000 5000 2000 ""]
+	Line[70000 305000 60000 315000 5000 2000 ""]
+	Line[40000 285000 40000 245000 5000 2000 ""]
+	Line[150000 275000 150000 255000 5000 2000 ""]
+	Line[70000 265000 85000 280000 5000 2000 ""]
+	Line[150000 285000 150000 295000 5000 2000 ""]
+	Line[69194 335000 50000 335000 5000 2000 ""]
+	Line[70000 295000 60000 305000 5000 2000 ""]
+	Line[100000 245000 160000 245000 5000 2000 ""]
+	Line[60000 305000 50000 305000 5000 2000 ""]
+	Line[40000 335000 47500 342500 5000 2000 ""]
+	Line[60000 315000 40000 315000 5000 2000 ""]
+	Line[160000 325000 151000 334000 5000 2000 ""]
+	Line[77500 326694 69194 335000 5000 2000 ""]
+	Line[160000 255000 150000 255000 5000 2000 ""]
+	Line[30000 335000 30000 295000 5000 2000 ""]
+	Line[60000 255000 60000 255952 5000 2000 ""]
+	Line[70000 275000 77500 282500 5000 2000 ""]
+	Line[60000 295000 70000 285000 5000 2000 ""]
+	Line[160000 285000 160000 265000 5000 2000 ""]
+	Line[110000 265000 100000 265000 5000 2000 ""]
+	Line[100000 315000 92500 310000 5000 2000 "rubberend"]
+	Line[92500 310000 92500 282500 5000 2000 ""]
+	Line[92500 282500 100000 275000 5000 2000 ""]
+	Line[110000 315000 120000 325000 5000 2000 ""]
+	Line[70181 342500 85000 327681 5000 2000 ""]
+	Line[92500 267500 92500 252500 5000 2000 ""]
+	Line[100000 275000 92500 267500 5000 2000 ""]
+	Line[47500 342500 70181 342500 5000 2000 ""]
+	Line[77500 307500 70000 315000 5000 2000 ""]
+	Line[30000 295000 40000 285000 5000 2000 ""]
+	Line[85000 327681 85000 280000 5000 2000 ""]
+	Line[92500 252500 100000 245000 5000 2000 ""]
+	Line[40000 325000 70000 325000 5000 2000 ""]
+	Line[110000 275000 100000 275000 5000 2000 ""]
+	Line[100000 255000 115000 255000 5000 2000 "found"]
+	Line[115000 255000 120000 260000 5000 2000 "found"]
+	Line[120000 260000 120000 290000 5000 2000 "found"]
+	Line[100000 325000 100000 337000 5000 2000 ""]
+	Line[220043 255000 200000 255000 5000 2000 ""]
+	Line[111000 348000 100000 337000 5000 2000 ""]
+	Line[100000 295000 115000 295000 5000 2000 "found"]
+	Line[100000 285000 110000 285000 5000 2000 ""]
+	Line[130000 305000 130000 295000 5000 2000 "found"]
+	Line[160000 295000 150000 295000 5000 2000 ""]
+	Line[140000 325000 140000 305000 5000 2000 "found"]
+	Line[119000 305000 114000 305000 5000 2000 ""]
+	Line[220000 335000 230000 335000 5000 2000 ""]
+	Line[100000 315000 110000 315000 5000 2000 ""]
+	Line[130000 295000 120000 285000 5000 2000 "found"]
+	Line[230000 335000 230000 265000 5000 2000 ""]
+	Line[170000 285000 180000 275000 5000 2000 "found"]
+	Line[180000 275000 220000 275000 5000 2000 "found"]
+	Line[170000 305000 130000 305000 5000 2000 "found"]
+	Line[210000 285000 210000 295000 5000 2000 ""]
+	Line[115000 295000 120000 290000 5000 2000 "found"]
+	Line[170000 333000 162000 341000 5000 2000 ""]
+	Line[130000 334000 130000 316000 5000 2000 ""]
+	Line[120000 325000 120000 341000 5000 2000 ""]
+	Line[210000 285000 220000 285000 5000 2000 ""]
+	Line[111000 348000 200000 348000 5000 2000 ""]
+	Line[230000 295000 220000 295000 5000 2000 ""]
+	Line[170000 333000 170000 325000 5000 2000 ""]
+	Line[210000 305000 190000 305000 5000 2000 ""]
+	Line[230000 264957 220043 255000 5000 2000 ""]
+	Line[170000 265000 160000 265000 5000 2000 ""]
+	Line[170000 305000 170000 285000 5000 2000 "found"]
+	Line[220000 315000 210000 305000 5000 2000 ""]
+	Line[170000 325000 190000 305000 5000 2000 ""]
+	Line[180000 315000 160000 315000 5000 2000 ""]
+	Line[130000 316000 119000 305000 5000 2000 ""]
+	Line[162000 341000 120000 341000 5000 2000 ""]
+	Line[151000 334000 130000 334000 5000 2000 ""]
+	Line[200000 348000 210000 338000 5000 2000 ""]
+	Line[210000 338000 210000 335000 5000 2000 ""]
+	Text[245000 102500 3 130 "revoluciones industriales" "auto"]
+	Text[245000 102500 3 130 "revoluciones industriales" "auto"]
+	Text[245000 102500 3 130 "revoluciones industriales" "auto"]
+	Text[245000 220000 3 130 "revoluciones industriales" "auto"]
+	Text[500000 102500 3 130 "revoluciones industriales" "auto"]
+	Text[500000 220000 3 130 "revoluciones industriales" "auto"]
+	Text[500000 337500 3 130 "revoluciones industriales" "auto"]
+	Text[245000 337500 3 130 "revoluciones industriales" "auto"]
+	Polygon("clearpoly")
+	(
+		[20000 0] [20000 115000] [105000 115000] [92500 102500] [82500 102500] 
+		[72500 112500] [45000 112500] [37500 105000] [25000 105000] [25000 55000] 
+		[32500 47500] [32500 5000] [45000 5000] [45000 22500] [47500 22500] 
+		[55000 15000] [65000 15000] [75000 5000] [85000 5000] [87500 7500] 
+		[92500 7500] [95000 5000] [162500 5000] [165000 7500] [165000 20000] 
+		[172500 20000] [172500 12500] [187500 12500] [187500 27500] [177500 27500] 
+		[172500 32500] [172500 35000] [165000 35000] [165000 42500] [170000 42500] 
+		[177500 35000] [225000 35000] [225000 32500] [217500 25000] [207500 25000] 
+		[205000 27500] [197500 27500] [192500 22500] [192500 15000] [195000 12500] 
+		[202500 12500] [205000 15000] [220000 15000] [222500 15000] [232500 25000] 
+		[232500 0] 
+	)
+	Polygon("clearpoly")
+	(
+		[232500 115000] [205000 115000] [215000 105000] [232500 105000] 
+	)
+	Polygon("clearpoly")
+	(
+		[167500 107500] [197500 107500] [205000 100000] [205000 95000] [195000 95000] 
+		[195000 75000] [192500 75000] [175000 92500] [175000 100000] 
+	)
+	Polygon("clearpoly")
+	(
+		[175000 52500] [175000 75000] [177500 75000] [187500 65000] [205000 65000] 
+		[205000 45000] [182500 45000] 
+	)
+	Polygon("clearpoly")
+	(
+		[117500 15000] [125000 22500] [125000 47500] [135000 57500] [135000 65000] 
+		[145000 65000] [145000 15000] 
+	)
+	Polygon("clearpoly")
+	(
+		[45000 35000] [45000 55000] [35000 65000] [35000 80000] [40000 75000] 
+		[45000 75000] [45000 65000] [55000 65000] [55000 57500] [65000 47500] 
+		[65000 32500] [60000 27500] [55000 32500] [55000 35000] 
+	)
+	Polygon("clearpoly")
+	(
+		[90000 42500] [92500 40000] [87500 35000] [87500 17500] [100000 5000] 
+		[82500 5000] [85000 7500] [85000 12500] [75000 22500] [75000 27500] 
+	)
+	Polygon("clearpoly")
+	(
+		[145000 75000] [145000 85000] [147500 87500] [147500 92500] [147500 95000] 
+		[155000 87500] [155000 75000] 
+	)
+	Polygon("clearpoly")
+	(
+		[105000 85000] [107500 85000] [112500 90000] [112500 97500] [115000 97500] 
+		[115000 107500] [112500 107500] [105000 100000] 
+	)
+	Polygon("clearpoly")
+	(
+		[90000 80000] [90000 95000] [82500 102500] [95000 102500] [95000 82500] 
+		[90000 82500] 
+	)
+	Polygon("clearpoly")
+	(
+		[95000 102500] [95000 105000] [92500 102500] 
+	)
+	Polygon("clearpoly")
+	(
+		[205000 75000] [205000 85000] [215000 85000] [215000 82500] [207500 75000] 
+	)
+	Polygon("clearpoly")
+	(
+		[212500 65000] [225000 65000] [225000 77500] 
+	)
+	Polygon("clearpoly")
+	(
+		[122500 60000] [117500 65000] [125000 65000] [125000 62500] 
+	)
+	Polygon("clearpoly")
+	(
+		[112500 75000] [117500 75000] [125000 82500] [120000 82500] 
+	)
+	Polygon("clearpoly")
+	(
+		[0 20000] [20000 20000] [20000 90000] [0 90000] 
+	)
+	Polygon("clearpoly")
+	(
+		[177500 32500] [215000 32500] [215000 40000] [177500 40000] 
+	)
+	Polygon("clearpoly")
+	(
+		[205000 40000] [175000 40000] [175000 52500] [205000 52500] 
+	)
+	Polygon("clearpoly")
+	(
+		[175000 35000] [180000 35000] [180000 40000] [175000 40000] 
+	)
+	Polygon("clearpoly")
+	(
+		[125000 45000] [140000 45000] [140000 57500] [125000 57500] 
+	)
+	Polygon("clearpoly")
+	(
+		[130000 52500] [145000 52500] [145000 70000] [130000 70000] 
+	)
+	Polygon("clearpoly")
+	(
+		[167500 72500] [180000 72500] [180000 60000] [167500 60000] 
+	)
+	Polygon("clearpoly")
+	(
+		[170000 62500] [177500 62500] [177500 47500] [170000 47500] 
+	)
+	Polygon("clearpoly")
+	(
+		[245000 15000] [250000 15000] [250000 100000] [245000 100000] 
+	)
+	Polygon("clearpoly")
+	(
+		[20000 0] [20000 115000] [105000 115000] [92500 102500] [82500 102500] 
+		[72500 112500] [45000 112500] [37500 105000] [25000 105000] [25000 55000] 
+		[32500 47500] [32500 5000] [45000 5000] [45000 22500] [47500 22500] 
+		[55000 15000] [65000 15000] [75000 5000] [85000 5000] [87500 7500] 
+		[92500 7500] [95000 5000] [162500 5000] [165000 7500] [165000 20000] 
+		[172500 20000] [172500 12500] [187500 12500] [187500 27500] [177500 27500] 
+		[172500 32500] [172500 35000] [165000 35000] [165000 42500] [170000 42500] 
+		[177500 35000] [225000 35000] [225000 32500] [217500 25000] [207500 25000] 
+		[205000 27500] [197500 27500] [192500 22500] [192500 15000] [195000 12500] 
+		[202500 12500] [205000 15000] [220000 15000] [222500 15000] [232500 25000] 
+		[232500 0] 
+	)
+	Polygon("clearpoly")
+	(
+		[232500 115000] [205000 115000] [215000 105000] [232500 105000] 
+	)
+	Polygon("clearpoly")
+	(
+		[167500 107500] [197500 107500] [205000 100000] [205000 95000] [195000 95000] 
+		[195000 75000] [192500 75000] [175000 92500] [175000 100000] 
+	)
+	Polygon("clearpoly")
+	(
+		[175000 52500] [175000 75000] [177500 75000] [187500 65000] [205000 65000] 
+		[205000 45000] [182500 45000] 
+	)
+	Polygon("clearpoly")
+	(
+		[117500 15000] [125000 22500] [125000 47500] [135000 57500] [135000 65000] 
+		[145000 65000] [145000 15000] 
+	)
+	Polygon("clearpoly")
+	(
+		[45000 35000] [45000 55000] [35000 65000] [35000 80000] [40000 75000] 
+		[45000 75000] [45000 65000] [55000 65000] [55000 57500] [65000 47500] 
+		[65000 32500] [60000 27500] [55000 32500] [55000 35000] 
+	)
+	Polygon("clearpoly")
+	(
+		[90000 42500] [92500 40000] [87500 35000] [87500 17500] [100000 5000] 
+		[82500 5000] [85000 7500] [85000 12500] [75000 22500] [75000 27500] 
+	)
+	Polygon("clearpoly")
+	(
+		[145000 75000] [145000 85000] [147500 87500] [147500 92500] [147500 95000] 
+		[155000 87500] [155000 75000] 
+	)
+	Polygon("clearpoly")
+	(
+		[105000 85000] [107500 85000] [112500 90000] [112500 97500] [115000 97500] 
+		[115000 107500] [112500 107500] [105000 100000] 
+	)
+	Polygon("clearpoly")
+	(
+		[90000 80000] [90000 95000] [82500 102500] [95000 102500] [95000 82500] 
+		[90000 82500] 
+	)
+	Polygon("clearpoly")
+	(
+		[95000 102500] [95000 105000] [92500 102500] 
+	)
+	Polygon("clearpoly")
+	(
+		[205000 75000] [205000 85000] [215000 85000] [215000 82500] [207500 75000] 
+	)
+	Polygon("clearpoly")
+	(
+		[212500 65000] [225000 65000] [225000 77500] 
+	)
+	Polygon("clearpoly")
+	(
+		[122500 60000] [117500 65000] [125000 65000] [125000 62500] 
+	)
+	Polygon("clearpoly")
+	(
+		[112500 75000] [117500 75000] [125000 82500] [120000 82500] 
+	)
+	Polygon("clearpoly")
+	(
+		[0 20000] [20000 20000] [20000 90000] [0 90000] 
+	)
+	Polygon("clearpoly")
+	(
+		[177500 32500] [215000 32500] [215000 40000] [177500 40000] 
+	)
+	Polygon("clearpoly")
+	(
+		[205000 40000] [175000 40000] [175000 52500] [205000 52500] 
+	)
+	Polygon("clearpoly")
+	(
+		[175000 35000] [180000 35000] [180000 40000] [175000 40000] 
+	)
+	Polygon("clearpoly")
+	(
+		[125000 45000] [140000 45000] [140000 57500] [125000 57500] 
+	)
+	Polygon("clearpoly")
+	(
+		[130000 52500] [145000 52500] [145000 70000] [130000 70000] 
+	)
+	Polygon("clearpoly")
+	(
+		[167500 72500] [180000 72500] [180000 60000] [167500 60000] 
+	)
+	Polygon("clearpoly")
+	(
+		[170000 62500] [177500 62500] [177500 47500] [170000 47500] 
+	)
+	Polygon("clearpoly")
+	(
+		[245000 15000] [250000 15000] [250000 100000] [245000 100000] 
+	)
+	Polygon("clearpoly")
+	(
+		[20000 0] [20000 115000] [105000 115000] [92500 102500] [82500 102500] 
+		[72500 112500] [45000 112500] [37500 105000] [25000 105000] [25000 55000] 
+		[32500 47500] [32500 5000] [45000 5000] [45000 22500] [47500 22500] 
+		[55000 15000] [65000 15000] [75000 5000] [85000 5000] [87500 7500] 
+		[92500 7500] [95000 5000] [162500 5000] [165000 7500] [165000 20000] 
+		[172500 20000] [172500 12500] [187500 12500] [187500 27500] [177500 27500] 
+		[172500 32500] [172500 35000] [165000 35000] [165000 42500] [170000 42500] 
+		[177500 35000] [225000 35000] [225000 32500] [217500 25000] [207500 25000] 
+		[205000 27500] [197500 27500] [192500 22500] [192500 15000] [195000 12500] 
+		[202500 12500] [205000 15000] [220000 15000] [222500 15000] [232500 25000] 
+		[232500 0] 
+	)
+	Polygon("clearpoly")
+	(
+		[232500 115000] [205000 115000] [215000 105000] [232500 105000] 
+	)
+	Polygon("clearpoly")
+	(
+		[167500 107500] [197500 107500] [205000 100000] [205000 95000] [195000 95000] 
+		[195000 75000] [192500 75000] [175000 92500] [175000 100000] 
+	)
+	Polygon("clearpoly")
+	(
+		[175000 52500] [175000 75000] [177500 75000] [187500 65000] [205000 65000] 
+		[205000 45000] [182500 45000] 
+	)
+	Polygon("clearpoly")
+	(
+		[117500 15000] [125000 22500] [125000 47500] [135000 57500] [135000 65000] 
+		[145000 65000] [145000 15000] 
+	)
+	Polygon("clearpoly")
+	(
+		[45000 35000] [45000 55000] [35000 65000] [35000 80000] [40000 75000] 
+		[45000 75000] [45000 65000] [55000 65000] [55000 57500] [65000 47500] 
+		[65000 32500] [60000 27500] [55000 32500] [55000 35000] 
+	)
+	Polygon("clearpoly")
+	(
+		[90000 42500] [92500 40000] [87500 35000] [87500 17500] [100000 5000] 
+		[82500 5000] [85000 7500] [85000 12500] [75000 22500] [75000 27500] 
+	)
+	Polygon("clearpoly")
+	(
+		[145000 75000] [145000 85000] [147500 87500] [147500 92500] [147500 95000] 
+		[155000 87500] [155000 75000] 
+	)
+	Polygon("clearpoly")
+	(
+		[105000 85000] [107500 85000] [112500 90000] [112500 97500] [115000 97500] 
+		[115000 107500] [112500 107500] [105000 100000] 
+	)
+	Polygon("clearpoly")
+	(
+		[90000 80000] [90000 95000] [82500 102500] [95000 102500] [95000 82500] 
+		[90000 82500] 
+	)
+	Polygon("clearpoly")
+	(
+		[95000 102500] [95000 105000] [92500 102500] 
+	)
+	Polygon("clearpoly")
+	(
+		[205000 75000] [205000 85000] [215000 85000] [215000 82500] [207500 75000] 
+	)
+	Polygon("clearpoly")
+	(
+		[212500 65000] [225000 65000] [225000 77500] 
+	)
+	Polygon("clearpoly")
+	(
+		[122500 60000] [117500 65000] [125000 65000] [125000 62500] 
+	)
+	Polygon("clearpoly")
+	(
+		[112500 75000] [117500 75000] [125000 82500] [120000 82500] 
+	)
+	Polygon("clearpoly")
+	(
+		[0 20000] [20000 20000] [20000 90000] [0 90000] 
+	)
+	Polygon("clearpoly")
+	(
+		[177500 32500] [215000 32500] [215000 40000] [177500 40000] 
+	)
+	Polygon("clearpoly")
+	(
+		[205000 40000] [175000 40000] [175000 52500] [205000 52500] 
+	)
+	Polygon("clearpoly")
+	(
+		[175000 35000] [180000 35000] [180000 40000] [175000 40000] 
+	)
+	Polygon("clearpoly")
+	(
+		[125000 45000] [140000 45000] [140000 57500] [125000 57500] 
+	)
+	Polygon("clearpoly")
+	(
+		[130000 52500] [145000 52500] [145000 70000] [130000 70000] 
+	)
+	Polygon("clearpoly")
+	(
+		[167500 72500] [180000 72500] [180000 60000] [167500 60000] 
+	)
+	Polygon("clearpoly")
+	(
+		[170000 62500] [177500 62500] [177500 47500] [170000 47500] 
+	)
+	Polygon("clearpoly")
+	(
+		[245000 15000] [250000 15000] [250000 100000] [245000 100000] 
+	)
+	Polygon("clearpoly")
+	(
+		[20000 117500] [20000 232500] [105000 232500] [92500 220000] [82500 220000] 
+		[72500 230000] [45000 230000] [37500 222500] [25000 222500] [25000 172500] 
+		[32500 165000] [32500 122500] [45000 122500] [45000 140000] [47500 140000] 
+		[55000 132500] [65000 132500] [75000 122500] [85000 122500] [87500 125000] 
+		[92500 125000] [95000 122500] [162500 122500] [165000 125000] [165000 137500] 
+		[172500 137500] [172500 130000] [187500 130000] [187500 145000] [177500 145000] 
+		[172500 150000] [172500 152500] [165000 152500] [165000 160000] [170000 160000] 
+		[177500 152500] [225000 152500] [225000 150000] [217500 142500] [207500 142500] 
+		[205000 145000] [197500 145000] [192500 140000] [192500 132500] [195000 130000] 
+		[202500 130000] [205000 132500] [220000 132500] [222500 132500] [232500 142500] 
+		[232500 117500] 
+	)
+	Polygon("clearpoly")
+	(
+		[232500 232500] [205000 232500] [215000 222500] [232500 222500] 
+	)
+	Polygon("clearpoly")
+	(
+		[167500 225000] [197500 225000] [205000 217500] [205000 212500] [195000 212500] 
+		[195000 192500] [192500 192500] [175000 210000] [175000 217500] 
+	)
+	Polygon("clearpoly")
+	(
+		[175000 170000] [175000 192500] [177500 192500] [187500 182500] [205000 182500] 
+		[205000 162500] [182500 162500] 
+	)
+	Polygon("clearpoly")
+	(
+		[117500 132500] [125000 140000] [125000 165000] [135000 175000] [135000 182500] 
+		[145000 182500] [145000 132500] 
+	)
+	Polygon("clearpoly")
+	(
+		[45000 152500] [45000 172500] [35000 182500] [35000 197500] [40000 192500] 
+		[45000 192500] [45000 182500] [55000 182500] [55000 175000] [65000 165000] 
+		[65000 150000] [60000 145000] [55000 150000] [55000 152500] 
+	)
+	Polygon("clearpoly")
+	(
+		[90000 160000] [92500 157500] [87500 152500] [87500 135000] [100000 122500] 
+		[82500 122500] [85000 125000] [85000 130000] [75000 140000] [75000 145000] 
+	)
+	Polygon("clearpoly")
+	(
+		[145000 192500] [145000 202500] [147500 205000] [147500 210000] [147500 212500] 
+		[155000 205000] [155000 192500] 
+	)
+	Polygon("clearpoly")
+	(
+		[105000 202500] [107500 202500] [112500 207500] [112500 215000] [115000 215000] 
+		[115000 225000] [112500 225000] [105000 217500] 
+	)
+	Polygon("clearpoly")
+	(
+		[90000 197500] [90000 212500] [82500 220000] [95000 220000] [95000 200000] 
+		[90000 200000] 
+	)
+	Polygon("clearpoly")
+	(
+		[95000 220000] [95000 222500] [92500 220000] 
+	)
+	Polygon("clearpoly")
+	(
+		[205000 192500] [205000 202500] [215000 202500] [215000 200000] [207500 192500] 
+	)
+	Polygon("clearpoly")
+	(
+		[212500 182500] [225000 182500] [225000 195000] 
+	)
+	Polygon("clearpoly")
+	(
+		[122500 177500] [117500 182500] [125000 182500] [125000 180000] 
+	)
+	Polygon("clearpoly")
+	(
+		[112500 192500] [117500 192500] [125000 200000] [120000 200000] 
+	)
+	Polygon("clearpoly")
+	(
+		[0 137500] [20000 137500] [20000 207500] [0 207500] 
+	)
+	Polygon("clearpoly")
+	(
+		[177500 150000] [215000 150000] [215000 157500] [177500 157500] 
+	)
+	Polygon("clearpoly")
+	(
+		[205000 157500] [175000 157500] [175000 170000] [205000 170000] 
+	)
+	Polygon("clearpoly")
+	(
+		[175000 152500] [180000 152500] [180000 157500] [175000 157500] 
+	)
+	Polygon("clearpoly")
+	(
+		[125000 162500] [140000 162500] [140000 175000] [125000 175000] 
+	)
+	Polygon("clearpoly")
+	(
+		[130000 170000] [145000 170000] [145000 187500] [130000 187500] 
+	)
+	Polygon("clearpoly")
+	(
+		[167500 190000] [180000 190000] [180000 177500] [167500 177500] 
+	)
+	Polygon("clearpoly")
+	(
+		[170000 180000] [177500 180000] [177500 165000] [170000 165000] 
+	)
+	Polygon("clearpoly")
+	(
+		[245000 132500] [250000 132500] [250000 217500] [245000 217500] 
+	)
+	Polygon("clearpoly")
+	(
+		[275000 0] [275000 115000] [360000 115000] [347500 102500] [337500 102500] 
+		[327500 112500] [300000 112500] [292500 105000] [280000 105000] [280000 55000] 
+		[287500 47500] [287500 5000] [300000 5000] [300000 22500] [302500 22500] 
+		[310000 15000] [320000 15000] [330000 5000] [340000 5000] [342500 7500] 
+		[347500 7500] [350000 5000] [417500 5000] [420000 7500] [420000 20000] 
+		[427500 20000] [427500 12500] [442500 12500] [442500 27500] [432500 27500] 
+		[427500 32500] [427500 35000] [420000 35000] [420000 42500] [425000 42500] 
+		[432500 35000] [480000 35000] [480000 32500] [472500 25000] [462500 25000] 
+		[460000 27500] [452500 27500] [447500 22500] [447500 15000] [450000 12500] 
+		[457500 12500] [460000 15000] [475000 15000] [477500 15000] [487500 25000] 
+		[487500 0] 
+	)
+	Polygon("clearpoly")
+	(
+		[487500 115000] [460000 115000] [470000 105000] [487500 105000] 
+	)
+	Polygon("clearpoly")
+	(
+		[422500 107500] [452500 107500] [460000 100000] [460000 95000] [450000 95000] 
+		[450000 75000] [447500 75000] [430000 92500] [430000 100000] 
+	)
+	Polygon("clearpoly")
+	(
+		[430000 52500] [430000 75000] [432500 75000] [442500 65000] [460000 65000] 
+		[460000 45000] [437500 45000] 
+	)
+	Polygon("clearpoly")
+	(
+		[372500 15000] [380000 22500] [380000 47500] [390000 57500] [390000 65000] 
+		[400000 65000] [400000 15000] 
+	)
+	Polygon("clearpoly")
+	(
+		[300000 35000] [300000 55000] [290000 65000] [290000 80000] [295000 75000] 
+		[300000 75000] [300000 65000] [310000 65000] [310000 57500] [320000 47500] 
+		[320000 32500] [315000 27500] [310000 32500] [310000 35000] 
+	)
+	Polygon("clearpoly")
+	(
+		[345000 42500] [347500 40000] [342500 35000] [342500 17500] [355000 5000] 
+		[337500 5000] [340000 7500] [340000 12500] [330000 22500] [330000 27500] 
+	)
+	Polygon("clearpoly")
+	(
+		[400000 75000] [400000 85000] [402500 87500] [402500 92500] [402500 95000] 
+		[410000 87500] [410000 75000] 
+	)
+	Polygon("clearpoly")
+	(
+		[360000 85000] [362500 85000] [367500 90000] [367500 97500] [370000 97500] 
+		[370000 107500] [367500 107500] [360000 100000] 
+	)
+	Polygon("clearpoly")
+	(
+		[345000 80000] [345000 95000] [337500 102500] [350000 102500] [350000 82500] 
+		[345000 82500] 
+	)
+	Polygon("clearpoly")
+	(
+		[350000 102500] [350000 105000] [347500 102500] 
+	)
+	Polygon("clearpoly")
+	(
+		[460000 75000] [460000 85000] [470000 85000] [470000 82500] [462500 75000] 
+	)
+	Polygon("clearpoly")
+	(
+		[467500 65000] [480000 65000] [480000 77500] 
+	)
+	Polygon("clearpoly")
+	(
+		[377500 60000] [372500 65000] [380000 65000] [380000 62500] 
+	)
+	Polygon("clearpoly")
+	(
+		[367500 75000] [372500 75000] [380000 82500] [375000 82500] 
+	)
+	Polygon("clearpoly")
+	(
+		[255000 20000] [275000 20000] [275000 90000] [255000 90000] 
+	)
+	Polygon("clearpoly")
+	(
+		[432500 32500] [470000 32500] [470000 40000] [432500 40000] 
+	)
+	Polygon("clearpoly")
+	(
+		[460000 40000] [430000 40000] [430000 52500] [460000 52500] 
+	)
+	Polygon("clearpoly")
+	(
+		[430000 35000] [435000 35000] [435000 40000] [430000 40000] 
+	)
+	Polygon("clearpoly")
+	(
+		[380000 45000] [395000 45000] [395000 57500] [380000 57500] 
+	)
+	Polygon("clearpoly")
+	(
+		[385000 52500] [400000 52500] [400000 70000] [385000 70000] 
+	)
+	Polygon("clearpoly")
+	(
+		[422500 72500] [435000 72500] [435000 60000] [422500 60000] 
+	)
+	Polygon("clearpoly")
+	(
+		[425000 62500] [432500 62500] [432500 47500] [425000 47500] 
+	)
+	Polygon("clearpoly")
+	(
+		[500000 15000] [505000 15000] [505000 100000] [500000 100000] 
+	)
+	Polygon("clearpoly")
+	(
+		[275000 117500] [275000 232500] [360000 232500] [347500 220000] [337500 220000] 
+		[327500 230000] [300000 230000] [292500 222500] [280000 222500] [280000 172500] 
+		[287500 165000] [287500 122500] [300000 122500] [300000 140000] [302500 140000] 
+		[310000 132500] [320000 132500] [330000 122500] [340000 122500] [342500 125000] 
+		[347500 125000] [350000 122500] [417500 122500] [420000 125000] [420000 137500] 
+		[427500 137500] [427500 130000] [442500 130000] [442500 145000] [432500 145000] 
+		[427500 150000] [427500 152500] [420000 152500] [420000 160000] [425000 160000] 
+		[432500 152500] [480000 152500] [480000 150000] [472500 142500] [462500 142500] 
+		[460000 145000] [452500 145000] [447500 140000] [447500 132500] [450000 130000] 
+		[457500 130000] [460000 132500] [475000 132500] [477500 132500] [487500 142500] 
+		[487500 117500] 
+	)
+	Polygon("clearpoly")
+	(
+		[487500 232500] [460000 232500] [470000 222500] [487500 222500] 
+	)
+	Polygon("clearpoly")
+	(
+		[422500 225000] [452500 225000] [460000 217500] [460000 212500] [450000 212500] 
+		[450000 192500] [447500 192500] [430000 210000] [430000 217500] 
+	)
+	Polygon("clearpoly")
+	(
+		[430000 170000] [430000 192500] [432500 192500] [442500 182500] [460000 182500] 
+		[460000 162500] [437500 162500] 
+	)
+	Polygon("clearpoly")
+	(
+		[372500 132500] [380000 140000] [380000 165000] [390000 175000] [390000 182500] 
+		[400000 182500] [400000 132500] 
+	)
+	Polygon("clearpoly")
+	(
+		[300000 152500] [300000 172500] [290000 182500] [290000 197500] [295000 192500] 
+		[300000 192500] [300000 182500] [310000 182500] [310000 175000] [320000 165000] 
+		[320000 150000] [315000 145000] [310000 150000] [310000 152500] 
+	)
+	Polygon("clearpoly")
+	(
+		[345000 160000] [347500 157500] [342500 152500] [342500 135000] [355000 122500] 
+		[337500 122500] [340000 125000] [340000 130000] [330000 140000] [330000 145000] 
+	)
+	Polygon("clearpoly")
+	(
+		[400000 192500] [400000 202500] [402500 205000] [402500 210000] [402500 212500] 
+		[410000 205000] [410000 192500] 
+	)
+	Polygon("clearpoly")
+	(
+		[360000 202500] [362500 202500] [367500 207500] [367500 215000] [370000 215000] 
+		[370000 225000] [367500 225000] [360000 217500] 
+	)
+	Polygon("clearpoly")
+	(
+		[345000 197500] [345000 212500] [337500 220000] [350000 220000] [350000 200000] 
+		[345000 200000] 
+	)
+	Polygon("clearpoly")
+	(
+		[350000 220000] [350000 222500] [347500 220000] 
+	)
+	Polygon("clearpoly")
+	(
+		[460000 192500] [460000 202500] [470000 202500] [470000 200000] [462500 192500] 
+	)
+	Polygon("clearpoly")
+	(
+		[467500 182500] [480000 182500] [480000 195000] 
+	)
+	Polygon("clearpoly")
+	(
+		[377500 177500] [372500 182500] [380000 182500] [380000 180000] 
+	)
+	Polygon("clearpoly")
+	(
+		[367500 192500] [372500 192500] [380000 200000] [375000 200000] 
+	)
+	Polygon("clearpoly")
+	(
+		[255000 137500] [275000 137500] [275000 207500] [255000 207500] 
+	)
+	Polygon("clearpoly")
+	(
+		[432500 150000] [470000 150000] [470000 157500] [432500 157500] 
+	)
+	Polygon("clearpoly")
+	(
+		[460000 157500] [430000 157500] [430000 170000] [460000 170000] 
+	)
+	Polygon("clearpoly")
+	(
+		[430000 152500] [435000 152500] [435000 157500] [430000 157500] 
+	)
+	Polygon("clearpoly")
+	(
+		[380000 162500] [395000 162500] [395000 175000] [380000 175000] 
+	)
+	Polygon("clearpoly")
+	(
+		[385000 170000] [400000 170000] [400000 187500] [385000 187500] 
+	)
+	Polygon("clearpoly")
+	(
+		[422500 190000] [435000 190000] [435000 177500] [422500 177500] 
+	)
+	Polygon("clearpoly")
+	(
+		[425000 180000] [432500 180000] [432500 165000] [425000 165000] 
+	)
+	Polygon("clearpoly")
+	(
+		[500000 132500] [505000 132500] [505000 217500] [500000 217500] 
+	)
+	Polygon("clearpoly")
+	(
+		[275000 235000] [275000 350000] [360000 350000] [347500 337500] [337500 337500] 
+		[327500 347500] [300000 347500] [292500 340000] [280000 340000] [280000 290000] 
+		[287500 282500] [287500 240000] [300000 240000] [300000 257500] [302500 257500] 
+		[310000 250000] [320000 250000] [330000 240000] [340000 240000] [342500 242500] 
+		[347500 242500] [350000 240000] [417500 240000] [420000 242500] [420000 255000] 
+		[427500 255000] [427500 247500] [442500 247500] [442500 262500] [432500 262500] 
+		[427500 267500] [427500 270000] [420000 270000] [420000 277500] [425000 277500] 
+		[432500 270000] [480000 270000] [480000 267500] [472500 260000] [462500 260000] 
+		[460000 262500] [452500 262500] [447500 257500] [447500 250000] [450000 247500] 
+		[457500 247500] [460000 250000] [475000 250000] [477500 250000] [487500 260000] 
+		[487500 235000] 
+	)
+	Polygon("clearpoly")
+	(
+		[487500 350000] [460000 350000] [470000 340000] [487500 340000] 
+	)
+	Polygon("clearpoly")
+	(
+		[422500 342500] [452500 342500] [460000 335000] [460000 330000] [450000 330000] 
+		[450000 310000] [447500 310000] [430000 327500] [430000 335000] 
+	)
+	Polygon("clearpoly")
+	(
+		[430000 287500] [430000 310000] [432500 310000] [442500 300000] [460000 300000] 
+		[460000 280000] [437500 280000] 
+	)
+	Polygon("clearpoly")
+	(
+		[372500 250000] [380000 257500] [380000 282500] [390000 292500] [390000 300000] 
+		[400000 300000] [400000 250000] 
+	)
+	Polygon("clearpoly")
+	(
+		[300000 270000] [300000 290000] [290000 300000] [290000 315000] [295000 310000] 
+		[300000 310000] [300000 300000] [310000 300000] [310000 292500] [320000 282500] 
+		[320000 267500] [315000 262500] [310000 267500] [310000 270000] 
+	)
+	Polygon("clearpoly")
+	(
+		[345000 277500] [347500 275000] [342500 270000] [342500 252500] [355000 240000] 
+		[337500 240000] [340000 242500] [340000 247500] [330000 257500] [330000 262500] 
+	)
+	Polygon("clearpoly")
+	(
+		[400000 310000] [400000 320000] [402500 322500] [402500 327500] [402500 330000] 
+		[410000 322500] [410000 310000] 
+	)
+	Polygon("clearpoly")
+	(
+		[360000 320000] [362500 320000] [367500 325000] [367500 332500] [370000 332500] 
+		[370000 342500] [367500 342500] [360000 335000] 
+	)
+	Polygon("clearpoly")
+	(
+		[345000 315000] [345000 330000] [337500 337500] [350000 337500] [350000 317500] 
+		[345000 317500] 
+	)
+	Polygon("clearpoly")
+	(
+		[350000 337500] [350000 340000] [347500 337500] 
+	)
+	Polygon("clearpoly")
+	(
+		[460000 310000] [460000 320000] [470000 320000] [470000 317500] [462500 310000] 
+	)
+	Polygon("clearpoly")
+	(
+		[467500 300000] [480000 300000] [480000 312500] 
+	)
+	Polygon("clearpoly")
+	(
+		[377500 295000] [372500 300000] [380000 300000] [380000 297500] 
+	)
+	Polygon("clearpoly")
+	(
+		[367500 310000] [372500 310000] [380000 317500] [375000 317500] 
+	)
+	Polygon("clearpoly")
+	(
+		[255000 255000] [275000 255000] [275000 325000] [255000 325000] 
+	)
+	Polygon("clearpoly")
+	(
+		[432500 267500] [470000 267500] [470000 275000] [432500 275000] 
+	)
+	Polygon("clearpoly")
+	(
+		[460000 275000] [430000 275000] [430000 287500] [460000 287500] 
+	)
+	Polygon("clearpoly")
+	(
+		[430000 270000] [435000 270000] [435000 275000] [430000 275000] 
+	)
+	Polygon("clearpoly")
+	(
+		[380000 280000] [395000 280000] [395000 292500] [380000 292500] 
+	)
+	Polygon("clearpoly")
+	(
+		[385000 287500] [400000 287500] [400000 305000] [385000 305000] 
+	)
+	Polygon("clearpoly")
+	(
+		[422500 307500] [435000 307500] [435000 295000] [422500 295000] 
+	)
+	Polygon("clearpoly")
+	(
+		[425000 297500] [432500 297500] [432500 282500] [425000 282500] 
+	)
+	Polygon("clearpoly")
+	(
+		[500000 250000] [505000 250000] [505000 335000] [500000 335000] 
+	)
+	Polygon("found,clearpoly")
+	(
+		[20000 235000] [20000 350000] [105000 350000] [92500 337500] [82500 337500] 
+		[72500 347500] [45000 347500] [37500 340000] [25000 340000] [25000 290000] 
+		[32500 282500] [32500 240000] [45000 240000] [45000 257500] [47500 257500] 
+		[55000 250000] [65000 250000] [75000 240000] [85000 240000] [87500 242500] 
+		[92500 242500] [95000 240000] [162500 240000] [165000 242500] [165000 255000] 
+		[172500 255000] [172500 247500] [187500 247500] [187500 262500] [177500 262500] 
+		[172500 267500] [172500 270000] [165000 270000] [165000 277500] [170000 277500] 
+		[177500 270000] [225000 270000] [225000 267500] [217500 260000] [207500 260000] 
+		[205000 262500] [197500 262500] [192500 257500] [192500 250000] [195000 247500] 
+		[202500 247500] [205000 250000] [220000 250000] [222500 250000] [232500 260000] 
+		[232500 235000] 
+	)
+	Polygon("clearpoly")
+	(
+		[232500 350000] [205000 350000] [215000 340000] [232500 340000] 
+	)
+	Polygon("clearpoly")
+	(
+		[167500 342500] [197500 342500] [205000 335000] [205000 330000] [195000 330000] 
+		[195000 310000] [192500 310000] [175000 327500] [175000 335000] 
+	)
+	Polygon("found,clearpoly")
+	(
+		[175000 287500] [175000 310000] [177500 310000] [187500 300000] [205000 300000] 
+		[205000 280000] [182500 280000] 
+	)
+	Polygon("found,clearpoly")
+	(
+		[117500 250000] [125000 257500] [125000 282500] [135000 292500] [135000 300000] 
+		[145000 300000] [145000 250000] 
+	)
+	Polygon("clearpoly")
+	(
+		[45000 270000] [45000 290000] [35000 300000] [35000 315000] [40000 310000] 
+		[45000 310000] [45000 300000] [55000 300000] [55000 292500] [65000 282500] 
+		[65000 267500] [60000 262500] [55000 267500] [55000 270000] 
+	)
+	Polygon("found,clearpoly")
+	(
+		[90000 277500] [92500 275000] [87500 270000] [87500 252500] [100000 240000] 
+		[82500 240000] [85000 242500] [85000 247500] [75000 257500] [75000 262500] 
+	)
+	Polygon("clearpoly")
+	(
+		[145000 310000] [145000 320000] [147500 322500] [147500 327500] [147500 330000] 
+		[155000 322500] [155000 310000] 
+	)
+	Polygon("clearpoly")
+	(
+		[105000 320000] [107500 320000] [112500 325000] [112500 332500] [115000 332500] 
+		[115000 342500] [112500 342500] [105000 335000] 
+	)
+	Polygon("found,clearpoly")
+	(
+		[90000 315000] [90000 330000] [82500 337500] [95000 337500] [95000 317500] 
+		[90000 317500] 
+	)
+	Polygon("found,clearpoly")
+	(
+		[95000 337500] [95000 340000] [92500 337500] 
+	)
+	Polygon("clearpoly")
+	(
+		[205000 310000] [205000 320000] [215000 320000] [215000 317500] [207500 310000] 
+	)
+	Polygon("clearpoly")
+	(
+		[212500 300000] [225000 300000] [225000 312500] 
+	)
+	Polygon("clearpoly")
+	(
+		[122500 295000] [117500 300000] [125000 300000] [125000 297500] 
+	)
+	Polygon("clearpoly")
+	(
+		[112500 310000] [117500 310000] [125000 317500] [120000 317500] 
+	)
+	Polygon("found,clearpoly")
+	(
+		[0 255000] [20000 255000] [20000 325000] [0 325000] 
+	)
+	Polygon("found,clearpoly")
+	(
+		[177500 267500] [215000 267500] [215000 275000] [177500 275000] 
+	)
+	Polygon("found,clearpoly")
+	(
+		[205000 275000] [175000 275000] [175000 287500] [205000 287500] 
+	)
+	Polygon("found,clearpoly")
+	(
+		[175000 270000] [180000 270000] [180000 275000] [175000 275000] 
+	)
+	Polygon("found,clearpoly")
+	(
+		[125000 280000] [140000 280000] [140000 292500] [125000 292500] 
+	)
+	Polygon("found,clearpoly")
+	(
+		[130000 287500] [145000 287500] [145000 305000] [130000 305000] 
+	)
+	Polygon("found,clearpoly")
+	(
+		[167500 307500] [180000 307500] [180000 295000] [167500 295000] 
+	)
+	Polygon("found,clearpoly")
+	(
+		[170000 297500] [177500 297500] [177500 282500] [170000 282500] 
+	)
+	Polygon("clearpoly")
+	(
+		[245000 250000] [250000 250000] [250000 335000] [245000 335000] 
+	)
+)
+Layer(2 "GND-sldr")
+(
+)
+Layer(3 "Vcc-sldr")
+(
+)
+Layer(4 "component")
+(
+)
+Layer(5 "GND-comp")
+(
+)
+Layer(6 "Vcc-comp")
+(
+)
+Layer(7 "unused")
+(
+)
+Layer(8 "unused")
+(
+)
+NetList()
+(
+	Net("ENA" "(unknown)")
+	(
+		Connect("CONN1-3")
+		Connect("U1-3")
+		Connect("U1-7")
+	)
+	Net("FWD" "(unknown)")
+	(
+		Connect("CONN1-1")
+		Connect("R1-1")
+		Connect("R4-1")
+		Connect("U1-6")
+	)
+	Net("GND" "(unknown)")
+	(
+		Connect("Q2-3")
+		Connect("Q4-3")
+		Connect("R10-1")
+		Connect("R12-1")
+		Connect("TB2-2")
+		Connect("U1-12")
+		Connect("U1-16")
+	)
+	Net("MOTOR1" "(unknown)")
+	(
+		Connect("Q1-1")
+		Connect("Q2-1")
+		Connect("TB1-1")
+	)
+	Net("MOTOR2" "(unknown)")
+	(
+		Connect("Q3-1")
+		Connect("Q4-1")
+		Connect("TB1-2")
+	)
+	Net("REV" "(unknown)")
+	(
+		Connect("CONN1-2")
+		Connect("R2-1")
+		Connect("R3-1")
+		Connect("U1-2")
+	)
+	Net("unnamed_net1" "(unknown)")
+	(
+		Connect("R1-2")
+		Connect("U1-1")
+	)
+	Net("unnamed_net2" "(unknown)")
+	(
+		Connect("R2-2")
+		Connect("U1-4")
+	)
+	Net("unnamed_net3" "(unknown)")
+	(
+		Connect("Q1-2")
+		Connect("R5-2")
+		Connect("R9-1")
+	)
+	Net("unnamed_net4" "(unknown)")
+	(
+		Connect("R3-2")
+		Connect("U1-5")
+	)
+	Net("unnamed_net5" "(unknown)")
+	(
+		Connect("R4-2")
+		Connect("U1-8")
+	)
+	Net("unnamed_net6" "(unknown)")
+	(
+		Connect("R5-1")
+		Connect("U1-15")
+	)
+	Net("unnamed_net7" "(unknown)")
+	(
+		Connect("Q2-2")
+		Connect("R6-2")
+		Connect("R10-2")
+	)
+	Net("unnamed_net8" "(unknown)")
+	(
+		Connect("R6-1")
+		Connect("U1-13")
+	)
+	Net("unnamed_net9" "(unknown)")
+	(
+		Connect("Q3-2")
+		Connect("R7-2")
+		Connect("R11-1")
+	)
+	Net("unnamed_net10" "(unknown)")
+	(
+		Connect("R7-1")
+		Connect("U1-11")
+	)
+	Net("unnamed_net11" "(unknown)")
+	(
+		Connect("Q4-2")
+		Connect("R8-2")
+		Connect("R12-2")
+	)
+	Net("unnamed_net12" "(unknown)")
+	(
+		Connect("R8-1")
+		Connect("U1-9")
+	)
+	Net("Vcc" "(unknown)")
+	(
+		Connect("Q1-3")
+		Connect("Q3-3")
+		Connect("R9-2")
+		Connect("R11-2")
+		Connect("TB2-1")
+		Connect("U1-10")
+		Connect("U1-14")
+	)
+)

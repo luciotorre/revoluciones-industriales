@@ -1,0 +1,49 @@
+EESchema (20080825c)  >> Creation date: 15/4/2009-22:54:52
+
+#Cmp ( order = Reference )
+| K1         CONN_3      
+| P2         CONN_2      
+| P3         CONN_2      
+| Q1         PNP         
+| Q2         NPN         
+| Q3         PNP         
+| Q4         NPN         
+| R1         470         
+| R2         470         
+| R3         470         
+| R4         470         
+| R5         1k          
+| R6         1k          
+| R7         1k          
+| R8         1k          
+| R9         10k         
+| R10        10k         
+| R11        10k         
+| R12        10k         
+| U1         4-OPTOCOUPLER
+#End Cmp
+
+#Cmp ( order = Value )
+| 10k          R9        
+| 10k          R10       
+| 10k          R11       
+| 10k          R12       
+| 1k           R5        
+| 1k           R6        
+| 1k           R7        
+| 1k           R8        
+| 4-OPTOCOUPLER U1        
+| 470          R1        
+| 470          R2        
+| 470          R3        
+| 470          R4        
+| CONN_2       P2        
+| CONN_2       P3        
+| CONN_3       K1        
+| NPN          Q2        
+| NPN          Q4        
+| PNP          Q1        
+| PNP          Q3        
+#End Cmp
+
+#End List

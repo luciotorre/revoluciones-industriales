@@ -1,0 +1,19 @@
+ENA	CONN1-3 U1-7 U1-3 
+MOTOR2	TB1-2 Q4-1 Q3-1 
+GND	TB2-2 U1-12 U1-16 Q4-3 Q2-3 R12-1 R10-1 
+unnamed_net12	U1-9 R8-1 
+unnamed_net11	R12-2 Q4-2 R8-2 
+unnamed_net10	U1-11 R7-1 
+unnamed_net9	R11-1 Q3-2 R7-2 
+unnamed_net8	U1-13 R6-1 
+unnamed_net7	R10-2 Q2-2 R6-2 
+unnamed_net6	U1-15 R5-1 
+unnamed_net5	U1-8 R4-2 
+unnamed_net4	U1-5 R3-2 
+unnamed_net3	R9-1 R5-2 Q1-2 
+Vcc	TB2-1 U1-10 U1-14 Q3-3 R11-2 R9-2 Q1-3 
+MOTOR1	TB1-1 Q2-1 Q1-1 
+REV	CONN1-2 U1-2 R3-1 R2-1 
+unnamed_net2	U1-4 R2-2 
+FWD	CONN1-1 R4-1 U1-6 R1-1 
+unnamed_net1	U1-1 R1-2 

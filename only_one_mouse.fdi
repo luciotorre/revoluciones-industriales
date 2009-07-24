@@ -1,0 +1,14 @@
+<deviceinfo version="0.2">
+  <device>
+    <!-- FIXME: Support tablets too. -->
+    <match key="info.capabilities" contains="input.mouse">
+    <match key="info.product" contains="Optical">
+       <match key="info.product" compare_ne="Logitech USB-PS/2 Optical Mouse">
+               <remove key="input.x11_driver"/>
+       </match>
+    </match>
+    </match>
+
+  </device>
+</deviceinfo>
+
