@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by CVpcb (20080825c) date = 31/7/2009-15:03:47
+
+BeginCmp
+TimeStamp = /4A722EBF;
+Reference = C3;
+ValeurCmp = 22p;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A722E0A;
+Reference = C4;
+ValeurCmp = 22p;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A72ED0A;
+Reference = C5;
+ValeurCmp = 104f;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A72EEEA;
+Reference = D1;
+ValeurCmp = LowCur_3V6;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A72EEF2;
+Reference = D2;
+ValeurCmp = LowCurr_3V6;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A720773;
+Reference = J1;
+ValeurCmp = USB_CONN;
+IdModule  = USB_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A72E1EE;
+Reference = Q1;
+ValeurCmp = 16_mhz;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A72EF60;
+Reference = R1;
+ValeurCmp = 68;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A72EF81;
+Reference = R2;
+ValeurCmp = 68;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A72EFB7;
+Reference = R3;
+ValeurCmp = 1m;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A72EFEA;
+Reference = R4;
+ValeurCmp = 1.5k;
+IdModule  = R7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A72FB0E;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A72F9DE;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = SW_PUSH_SMALL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A72E32B;
+Reference = U1;
+ValeurCmp = ATMEGA16;
+IdModule  = 40dip600;
+EndCmp
+
+EndListe

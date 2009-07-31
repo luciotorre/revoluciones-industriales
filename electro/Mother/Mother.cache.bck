@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0  31/7/2009-15:07:35
+#
+$CMP C
+D Condensateur non polarise
+$ENDCMP
+#
+$CMP DIODE
+D Diode simple
+K DEV DIODE
+$ENDCMP
+#
+$CMP R
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP SW_PUSH
+D Push Button
+K Switch
+$ENDCMP
+#
+$CMP USB_CONN
+D USB CONNECTOR
+K USB
+$ENDCMP
+#
+#End Doc Library
