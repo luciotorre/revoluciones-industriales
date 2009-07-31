@@ -1,7 +1,11 @@
-# EESchema Netlist Version 1.1 created  31/7/2009-17:36:05
+# EESchema Netlist Version 1.1 created  31/7/2009-17:54:22
 (
  ( /4A722EBF C1 C3 22p
   ( 1 N-000005 )
+  ( 2 GND )
+ )
+ ( /4A732E00 C1 C4 22p
+  ( 1 GND )
   ( 2 GND )
  )
  ( /4A72ED0A C1 C5 104f
@@ -98,6 +102,11 @@
 *
 { Allowed footprints by component:
 $component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
  SM*
  C?
  C1-1

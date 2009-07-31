@@ -13,8 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 2750 3400
-Kmarq B 2750 3400 "Warning Pin passive Unconnected" F=1
 Kmarq B 3600 2550 "Warning Pin BiDi Unconnected" F=1
 Kmarq B 3600 2650 "Warning Pin BiDi Unconnected" F=1
 Kmarq B 3600 2750 "Warning Pin BiDi Unconnected" F=1
@@ -51,13 +49,13 @@ Kmarq B 6350 4450 "Warning Pin BiDi Unconnected" F=1
 Kmarq B 1600 6600 "Warning Pin passive Unconnected" F=1
 Kmarq B 2350 6600 "Warning Pin passive Unconnected" F=1
 Kmarq B 1600 6500 "Warning: Pin power_out connected to Pin BiDi (net 1)" F=1
-Connection ~ 1250 6100
 Connection ~ 1600 6500
+Wire Wire Line
+	850  6500 1600 6500
+Connection ~ 2350 3400
+Connection ~ 2750 3400
+Connection ~ 1250 6100
 Connection ~ 1250 6500
-Wire Wire Line
-	850  6500 1250 6500
-Wire Wire Line
-	1250 6500 1600 6500
 Connection ~ 2600 6500
 Wire Wire Line
 	2600 6600 2600 6500
@@ -66,9 +64,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 2450 3300 2450
 Wire Wire Line
-	1950 3400 2750 3400
-Wire Wire Line
-	2750 3400 2950 3400
+	1950 3400 2950 3400
 Wire Wire Line
 	2350 4000 1950 4000
 Wire Wire Line
@@ -76,9 +72,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 6350 1600 6100
 Wire Wire Line
-	1600 6100 1250 6100
-Wire Wire Line
-	1250 6100 850  6100
+	1600 6100 850  6100
 Wire Wire Line
 	2600 7100 2600 7250
 Wire Wire Line
@@ -90,15 +84,9 @@ Wire Wire Line
 Wire Wire Line
 	3150 4250 3150 5750
 Wire Wire Line
-	2350 6350 2800 6350
+	2350 6350 3450 6350
 Wire Wire Line
-	2800 6350 3450 6350
-Wire Wire Line
-	2350 6500 2600 6500
-Wire Wire Line
-	2600 6500 3050 6500
-Wire Wire Line
-	3050 6500 3150 6500
+	2350 6500 3150 6500
 Wire Wire Line
 	2750 4000 2950 4000
 Wire Wire Line
@@ -134,6 +122,15 @@ Wire Wire Line
 	2800 6600 2800 6350
 Connection ~ 2800 6350
 Connection ~ 3050 6500
+$Comp
+L C C4
+U 1 1 4A732E00
+P 2550 3400
+F 0 "C4" H 2600 3500 50  0000 L C
+F 1 "22p" H 2600 3300 50  0000 L C
+	1    2550 3400
+	0    1    1    0   
+$EndComp
 $Comp
 L GND #PWR01
 U 1 1 4A732949
