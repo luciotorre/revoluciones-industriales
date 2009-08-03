@@ -1,12 +1,12 @@
-EESchema-DOCLIB  Version 2.0  31/7/2009-17:56:15
+EESchema-DOCLIB  Version 2.0  1/8/2009-04:42:43
 #
 $CMP C
 D Condensateur non polarise
 $ENDCMP
 #
-$CMP DIODE
-D Diode simple
-K DEV DIODE
+$CMP CONN_8
+D Symbole general de connecteur
+K CONN
 $ENDCMP
 #
 $CMP R
@@ -22,6 +22,11 @@ $ENDCMP
 $CMP USB_CONN
 D USB CONNECTOR
 K USB
+$ENDCMP
+#
+$CMP ZENER
+D Diode zener
+K DEV DIODE
 $ENDCMP
 #
 #End Doc Library

@@ -1,4 +1,4 @@
-ERC control (31/7/2009-16:54:54)
+ERC control (31/7/2009-18:30:21)
 
 ***** Sheet / (Root) 
 ERC: Warning Pin BiDi Unconnected (X= 3.600 inches, Y= 2.550 inches
@@ -34,10 +34,7 @@ ERC: Warning Pin BiDi Unconnected (X= 6.350 inches, Y= 4.150 inches
 ERC: Warning Pin BiDi Unconnected (X= 6.350 inches, Y= 4.250 inches
 ERC: Warning Pin BiDi Unconnected (X= 6.350 inches, Y= 4.350 inches
 ERC: Warning Pin BiDi Unconnected (X= 6.350 inches, Y= 4.450 inches
-ERC: Warning Pin passive Unconnected (X= 1.250 inches, Y= 6.500 inches
-ERC: Warning Pin passive Unconnected (X= 1.600 inches, Y= 6.600 inches
-ERC: Warning Pin passive Unconnected (X= 2.350 inches, Y= 6.600 inches
-ERC: Warning Pin passive Unconnected (X= 3.300 inches, Y= 3.450 inches
-ERC: Warning Pin passive Unconnected (X= 2.350 inches, Y= 4.000 inches
+ERC: Warning Pin passive Unconnected (X= 1.600 inches, Y= 5.800 inches
+ERC: Warning Pin passive Unconnected (X= 2.350 inches, Y= 5.800 inches
 
- >> Errors ERC: 38
+ >> Errors ERC: 35
