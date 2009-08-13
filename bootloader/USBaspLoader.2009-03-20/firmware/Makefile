@@ -26,7 +26,7 @@ PROGRAMMER = -c stk500v2 -P /dev/ttyS0
 FUSEOPT_8 = -U hfuse:w:0xc0:m -U lfuse:w:0x9f:m
 FUSEOPT_88 = -U hfuse:w:0xd6:m -U lfuse:w:0xdf:m -U efuse:w:0x00:m
 FUSEOPT_168 = -U hfuse:w:0xd6:m -U lfuse:w:0xdf:m -U efuse:w:0x00:m
-FUSEOPT_32 = -U hfuse:w:0xc0:m -U lfuse:w:0x9f:m
+FUSEOPT_32 = -U hfuse:w:0xc9:m -U lfuse:w:0x9f:m
 # You may have to change the order of these -U commands.
 
 #---------------------------------------------------------------------
@@ -71,25 +71,7 @@ FUSEOPT_32 = -U hfuse:w:0xc0:m -U lfuse:w:0x9f:m
 #        | |  +--------------- SUT 1..0 (crystal osc, BOD enabled)
 #        | +------------------ CKOUT (if 0: Clock output enabled)
 #        +-------------------- CKDIV8 (if 0: divide by 8)
-#---------------------------------------------------------------------
-# ATMega32
-#---------------------------------------------------------------------
-# Fuse high byte:
-# 0xc0 = 1 1 0 0   0 0 0 0 <-- BOOTRST (boot reset vector at 0x1800)
-#        ^ ^ ^ ^   ^ ^ ^------ BOOTSZ0
-#        | | | |   | +-------- BOOTSZ1
-#        | | | |   + --------- EESAVE (preserve EEPROM over chip erase)
-#        | | | +-------------- CKOPT (full output swing)
-#        | | +---------------- SPIEN (allow serial programming)
-#        | +------------------ WDTON (WDT not always on)
-#        +-------------------- RSTDISBL (reset pin is enabled)
-# Fuse low byte:
-# 0x9f = 1 0 0 1   1 1 1 1
-#        ^ ^ \ /   \--+--/
-#        | |  |       +------- CKSEL 3..0 (external >8M crystal)
-#        | |  +--------------- SUT 1..0 (crystal osc, BOD enabled)
-#        | +------------------ BODEN (BrownOut Detector enabled)
-#        +-------------------- BODLEVEL (2.7V)
+
 
 ###############################################################################
 

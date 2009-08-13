@@ -98,6 +98,8 @@ static const uchar      currentRequest = 0;
 static const uchar  signatureBytes[4] = {
 #ifdef SIGNATURE_BYTES
     SIGNATURE_BYTES
+#elif defined (__AVR_ATmega32__)
+    0x1e, 0x95, 0x02, 0
 #elif defined (__AVR_ATmega8__) || defined (__AVR_ATmega8HVA__)
     0x1e, 0x93, 0x07, 0
 #elif defined (__AVR_ATmega48__) || defined (__AVR_ATmega48P__)
@@ -108,8 +110,6 @@ static const uchar  signatureBytes[4] = {
     0x1e, 0x94, 0x06, 0
 #elif defined (__AVR_ATmega328P__)
     0x1e, 0x95, 0x0f, 0
-#elif defined (__AVR_ATmega32__)
-    0x1e, 0x95, 0x02, 0
 #else
 #   error "Device signature is not known, please edit main.c!"
 #endif
@@ -121,7 +121,7 @@ static void (*nullVector)(void) __attribute__((__noreturn__));
 
 static void leaveBootloader()
 {
-	blink(7);
+    flash(10, 255);
     DBG1(0x01, 0, 0);
     bootLoaderExit();
     cli();
@@ -297,48 +297,38 @@ uchar   i = 0;
     sei();
 }
 
-void blink(int p) {
-	/* set PORTB high */
-	PORTC = ~(1 << p);
-	_delay_ms(500);
+void flash(int times, int interval) {
+    int i;
 
-	/* set PORTB low */
-	PORTC = 0xff;
-	_delay_ms(500);
+    for (i = 0 ; i < times ; i++ ) {
+        _delay_ms(interval);
+        PORTD |= 1 << 3;
+        _delay_ms(interval);
+        PORTD &= ~(1<<3);
+    }
 }
 
 int main(void)
 {
     /* initialize  */
-	DDRD = 0;
-	DDRC = 0xff;
-	PORTC = 0xff;
-	blink(1);
-   wdt_disable();      /* main app may have enabled watchdog */
-	blink(2);
+    DDRD |= 1 << 3;
+    flash(100, 10);
+    flash(10, 100);
+    flash(100, 10);
+    wdt_disable();      /* main app may have enabled watchdog */
     bootLoaderInit();
-	blink(3);
+
     odDebugInit();
-	blink(4);
     DBG1(0x00, 0, 0);
-	blink(5);
 #ifndef NO_FLASH_WRITE
     GICR = (1 << IVCE);  /* enable change of interrupt vectors */
     GICR = (1 << IVSEL); /* move interrupts to boot flash section */
 #endif
-	blink(4);
-    PORTC = ~PIND;
-    _delay_ms(2000);
     if(bootLoaderCondition()){
         uchar i = 0, j = 0;
-	blink(2);
         initForUsbConnectivity();
         do{
-	blink(3);
-
             usbPoll();
-	blink(4);
-
 #if BOOTLOADER_CAN_EXIT
             if(requestBootLoaderExit){
                 if(--i == 0){
@@ -348,12 +338,9 @@ int main(void)
             }
 #endif
         }while(bootLoaderCondition());  /* main event loop */
-	blink(3);
-
     }
     leaveBootloader();
     return 0;
 }
-
 
 /* ------------------------------------------------------------------------ */

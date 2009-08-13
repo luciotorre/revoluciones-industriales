@@ -42,7 +42,7 @@ these macros are defined, the boot loader usees them.
 /* This is the port where the USB bus is connected. When you configure it to
  * "B", the registers PORTB, PINB and DDRB will be used.
  */
-#define USB_CFG_DMINUS_BIT      4
+#define USB_CFG_DMINUS_BIT      6
 /* This is the bit number in USB_CFG_IOPORT where the USB D- line is connected.
  * This may be any bit in the port.
  */
@@ -98,7 +98,8 @@ these macros are defined, the boot loader usees them.
 /* If this macro is defined to 1, the boot loader implements the Chip Erase
  * ISP command. Otherwise pages are erased on demand before they are written.
  */
-//#define SIGNATURE_BYTES             0x1e, 0x93, 0x07, 0     /* ATMega8 */
+//#define SIGNATURE_BYTES             0x1e, 0x95, 0x02, 0     /* ATMega32 */
+
 /* This macro defines the signature bytes returned by the emulated USBasp to
  * the programmer software. They should match the actual device at least in
  * memory size and features. If you don't define this, values for ATMega8,
@@ -132,7 +133,7 @@ these macros are defined, the boot loader usees them.
 
 #ifndef __ASSEMBLER__   /* assembler cannot parse function definitions */
 
-#define JUMPER_BIT  7   /* jumper is connected to this bit in port D, active low */
+#define JUMPER_BIT  5   /* jumper is connected to this bit in port D, active low */
 
 #ifndef MCUCSR          /* compatibility between ATMega8 and ATMega88 */
 #   define MCUCSR   MCUSR
