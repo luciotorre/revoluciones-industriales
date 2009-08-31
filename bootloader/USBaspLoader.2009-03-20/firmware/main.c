@@ -98,8 +98,6 @@ static const uchar      currentRequest = 0;
 static const uchar  signatureBytes[4] = {
 #ifdef SIGNATURE_BYTES
     SIGNATURE_BYTES
-#elif defined (__AVR_ATmega32__)
-    0x1e, 0x95, 0x02, 0
 #elif defined (__AVR_ATmega8__) || defined (__AVR_ATmega8HVA__)
     0x1e, 0x93, 0x07, 0
 #elif defined (__AVR_ATmega48__) || defined (__AVR_ATmega48P__)
@@ -110,6 +108,10 @@ static const uchar  signatureBytes[4] = {
     0x1e, 0x94, 0x06, 0
 #elif defined (__AVR_ATmega328P__)
     0x1e, 0x95, 0x0f, 0
+#elif defined (__AVR_ATmega16__)
+    0x1e, 0x94, 0x03, 0
+#elif defined (__AVR_ATmega32__)
+    0x1e, 0x95, 0x02, 0
 #else
 #   error "Device signature is not known, please edit main.c!"
 #endif
@@ -121,7 +123,6 @@ static void (*nullVector)(void) __attribute__((__noreturn__));
 
 static void leaveBootloader()
 {
-    flash(10, 255);
     DBG1(0x01, 0, 0);
     bootLoaderExit();
     cli();
@@ -286,7 +287,6 @@ static void initForUsbConnectivity(void)
 {
 uchar   i = 0;
 
-    usbInit();
     /* enforce USB re-enumerate: */
     usbDeviceDisconnect();  /* do this while interrupts are disabled */
     while(--i){         /* fake USB disconnect for > 250 ms */
@@ -294,30 +294,46 @@ uchar   i = 0;
         _delay_ms(1);
     }
     usbDeviceConnect();
+    usbInit();
     sei();
 }
 
-void flash(int times, int interval) {
-    int i;
+#define PARABOARD_DEBUG_PIN 3
+void pb_configure() {
+    /* set the debug pin as output */
+    DDRD |= (1 << PARABOARD_DEBUG_PIN);
+    /* make sure we turn it off */
+    PORTD &= ~(1 << PARABOARD_DEBUG_PIN);
+}
+void bootloader_init_mark() {
+    uchar i;
+    /* do a long flash */
+    PORTD |= (1 << PARABOARD_DEBUG_PIN);
+    _delay_ms(200);
 
-    for (i = 0 ; i < times ; i++ ) {
-        _delay_ms(interval);
-        PORTD |= 1 << 3;
-        _delay_ms(interval);
-        PORTD &= ~(1<<3);
+    /* do 20 short flashes */
+    for ( i = 0; i < 20; i++ ) {
+        PORTD &= ~(1 << PARABOARD_DEBUG_PIN);
+        _delay_ms(20);
+        PORTD |= (1 << PARABOARD_DEBUG_PIN);
+        _delay_ms(20);
+
     }
+
+    /* finish with a long flash */
+    _delay_ms(180);
+    PORTD &= ~(1 << PARABOARD_DEBUG_PIN);
 }
 
 int main(void)
 {
     /* initialize  */
-    DDRD |= 1 << 3;
-    flash(100, 10);
-    flash(10, 100);
-    flash(100, 10);
     wdt_disable();      /* main app may have enabled watchdog */
+    pb_configure();
+    bootloader_init_mark();
+    DDRD = ~(1 << 2);   /* all outputs except PD2 = INT0 */
+    PORTD = 0;
     bootLoaderInit();
-
     odDebugInit();
     DBG1(0x00, 0, 0);
 #ifndef NO_FLASH_WRITE

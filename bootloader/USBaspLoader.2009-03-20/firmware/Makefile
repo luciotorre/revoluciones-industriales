@@ -16,17 +16,24 @@
 
 F_CPU = 16000000
 DEVICE = atmega32
-BOOTLOADER_ADDRESS = 3800
-FUSEOPT = $(FUSEOPT_32)
+#BOOTLOADER_ADDRESS = 0
+BOOTLOADER_ADDRESS = 7000
+# BOOTLOADER_ADDRESS = 7800
+FUSEOPT = $(FUSEOPT_MEGA32)
+# FUSEOPT = $(FUSEOPT_MEGA16)
+# FUSEOPT = $(FUSEOPT_168)
 LOCKOPT = -U lock:w:0x2f:m
 
-PROGRAMMER = -c stk500v2 -P /dev/ttyS0
+# PROGRAMMER = -c stk500v2 -P avrdoper
 # PROGRAMMER contains AVRDUDE options to address your programmer
+PROGRAMMER = ""
+PROGRAMMER = -c stk500v2 -P /dev/ttyS0
 
 FUSEOPT_8 = -U hfuse:w:0xc0:m -U lfuse:w:0x9f:m
 FUSEOPT_88 = -U hfuse:w:0xd6:m -U lfuse:w:0xdf:m -U efuse:w:0x00:m
 FUSEOPT_168 = -U hfuse:w:0xd6:m -U lfuse:w:0xdf:m -U efuse:w:0x00:m
-FUSEOPT_32 = -U hfuse:w:0xc9:m -U lfuse:w:0x9f:m
+FUSEOPT_MEGA32 = -U hfuse:w:0x80:m -U lfuse:w:0x9f:m
+FUSEOPT_MEGA16 = -U hfuse:w:0x80:m -U lfuse:w:0xC0:m
 # You may have to change the order of these -U commands.
 
 #---------------------------------------------------------------------
@@ -71,6 +78,30 @@ FUSEOPT_32 = -U hfuse:w:0xc9:m -U lfuse:w:0x9f:m
 #        | |  +--------------- SUT 1..0 (crystal osc, BOD enabled)
 #        | +------------------ CKOUT (if 0: Clock output enabled)
 #        +-------------------- CKDIV8 (if 0: divide by 8)
+#---------------------------------------------------------------------
+# ATMega32
+#---------------------------------------------------------------------
+# Fuse extended byte:
+# 0x00 = 0 0 0 0   0 0 0 0 <-- BOOTRST (boot reset vector at 0x1800)
+#                    \+/
+#                     +------- BOOTSZ (00 = 2k bytes)
+# Fuse high byte:
+# 0xd6 = 1 1 0 1   0 1 1 0
+#        ^ ^ ^ ^   ^ \-+-/
+#        | | | |   |   +------ BODLEVEL 0..2 (110 = 1.8 V)
+#        | | | |   + --------- EESAVE (preserve EEPROM over chip erase)
+#        | | | +-------------- WDTON (if 0: watchdog always on)
+#        | | +---------------- SPIEN (allow serial programming)
+#        | +------------------ DWEN (debug wire enable)
+#        +-------------------- RSTDISBL (reset pin is enabled)
+# Fuse low byte:
+# 0xdf = 1 1 0 1   1 1 1 1
+#        ^ ^ \ /   \--+--/
+#        | |  |       +------- CKSEL 3..0 (external >8M crystal)
+#        | |  +--------------- SUT 1..0 (crystal osc, BOD enabled)
+#        | +------------------ CKOUT (if 0: Clock output enabled)
+#        +-------------------- CKDIV8 (if 0: divide by 8)
+# 
 
 
 ###############################################################################
@@ -138,7 +169,9 @@ cpp:
 # Special rules for generating hex files for various devices and clock speeds
 ALLHEXFILES = hexfiles/mega8_12mhz.hex hexfiles/mega8_15mhz.hex hexfiles/mega8_16mhz.hex \
 	hexfiles/mega88_12mhz.hex hexfiles/mega88_15mhz.hex hexfiles/mega88_16mhz.hex hexfiles/mega88_20mhz.hex\
-	hexfiles/mega168_12mhz.hex hexfiles/mega168_15mhz.hex hexfiles/mega168_16mhz.hex hexfiles/mega168_20mhz.hex
+	hexfiles/mega168_12mhz.hex hexfiles/mega168_15mhz.hex hexfiles/mega168_16mhz.hex hexfiles/mega168_20mhz.hex\
+	hexfiles/mega16_12mhz.hex hexfiles/mega16_15mhz.hex hexfiles/mega16_16mhz.hex hexfiles/mega16_20mhz.hex\
+	hexfiles/mega32_12mhz.hex hexfiles/mega32_15mhz.hex hexfiles/mega32_16mhz.hex hexfiles/mega32_20mhz.hex
 
 allhexfiles: $(ALLHEXFILES)
 	$(MAKE) clean

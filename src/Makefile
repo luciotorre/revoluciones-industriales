@@ -12,7 +12,7 @@ DEVICE  = atmega32
 F_CPU   = 16000000	# in Hz
 FUSE_L  = 0x9f
 FUSE_H  = 0xc9
-AVRDUDE = avrdude -c stk500v2 -P /dev/ttyS0 -p $(DEVICE) # edit this line for your programmer
+AVRDUDE = avrdude -c usbasp -p $(DEVICE) # edit this line for your programmer
 
 CFLAGS  = -Iusbdrv -I. -DDEBUG_LEVEL=0
 OBJECTS = usbdrv/usbdrv.o usbdrv/usbdrvasm.o usbdrv/oddebug.o main.o
@@ -72,7 +72,7 @@ COMPILE = avr-gcc -Wall -Os -DF_CPU=$(F_CPU) $(CFLAGS) -mmcu=$(DEVICE)
 #        +-------------------- CKDIV8 (divide clock by 8 -> don't divide)
 # ATMega*5 FUSE_H (Fuse high byte):
 # 0xdd = 1 1 0 1   1 1 0 1
-#        ^ ^ ^ ^   ^ \-+-/ 
+#        ^ ^ ^ ^   ^ \-+-/
 #        | | | |   |   +------ BODLEVEL 2..0 (brownout trigger level -> 2.7V)
 #        | | | |   +---------- EESAVE (preserve EEPROM on Chip Erase -> not preserved)
 #        | | | +-------------- WDTON (watchdog timer always on -> disable)

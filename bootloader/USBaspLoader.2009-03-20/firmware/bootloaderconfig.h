@@ -98,8 +98,7 @@ these macros are defined, the boot loader usees them.
 /* If this macro is defined to 1, the boot loader implements the Chip Erase
  * ISP command. Otherwise pages are erased on demand before they are written.
  */
-//#define SIGNATURE_BYTES             0x1e, 0x95, 0x02, 0     /* ATMega32 */
-
+//#define SIGNATURE_BYTES             0x1e, 0x93, 0x07, 0     /* ATMega8 */
 /* This macro defines the signature bytes returned by the emulated USBasp to
  * the programmer software. They should match the actual device at least in
  * memory size and features. If you don't define this, values for ATMega8,
@@ -133,7 +132,7 @@ these macros are defined, the boot loader usees them.
 
 #ifndef __ASSEMBLER__   /* assembler cannot parse function definitions */
 
-#define JUMPER_BIT  5   /* jumper is connected to this bit in port D, active low */
+#define JUMPER_BIT  1   /* jumper is connected to this bit in port D, active low */
 
 #ifndef MCUCSR          /* compatibility between ATMega8 and ATMega88 */
 #   define MCUCSR   MCUSR
@@ -142,8 +141,8 @@ these macros are defined, the boot loader usees them.
 static inline void  bootLoaderInit(void)
 {
     PORTD |= (1 << JUMPER_BIT);     /* activate pull-up */
-    if(!(MCUCSR & (1 << EXTRF)))    /* If this was not an external reset, ignore */
-        leaveBootloader();
+    /*if(!(MCUCSR & (1 << EXTRF)))    /* If this was not an external reset, ignore */
+        /*leaveBootloader();*/
     MCUCSR = 0;                     /* clear all reset flags for next time */
 }
 
@@ -153,6 +152,8 @@ static inline void  bootLoaderExit(void)
 }
 
 #define bootLoaderCondition()   ((PIND & (1 << JUMPER_BIT)) == 0)
+/* disable most of the firmware */
+/* #define NO_FLASH_WRITE */
 
 #endif /* __ASSEMBLER__ */
 
